@@ -232,7 +232,7 @@ export default {
   },
   methods:{
     stopModal(){
-      this.modalOn = window.innerWidth > 766;
+      this.modalOn = window.innerWidth > 1024;
     }
   },
   components:{Banner, Modal}

@@ -159,7 +159,7 @@ export default {
       count:1,
       banner:{
         picture: "laptop",
-        heading: "PROGRAMMING"
+        heading: "PROGRAMS"
       },
     }
   },
