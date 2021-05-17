@@ -63,7 +63,7 @@
         </div>
       </router-link>
       <router-link to="programming">
-        <div class="md:mt-12 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
+        <div class="md:mt-0 mt-12 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
           <h1 class="text-left text-7xl font-bold md:mx-5 mx-12">CODING</h1>
           <h1 class="text-left text-5xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
             {{content.title}}
