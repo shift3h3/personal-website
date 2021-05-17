@@ -19,7 +19,7 @@
     </p>
     <div class="text-center py-5">
       <button 
-        class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
+      class="text-sm bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
         style="border-radius: 75px;" 
         @click="revealKTable"
       >
@@ -48,7 +48,7 @@
     </p>
     <div class="text-center py-5">
       <button 
-        class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
+      class="text-sm bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
         style="border-radius: 75px;" 
         @click="revealSurfaceTable"
       >
