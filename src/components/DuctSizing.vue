@@ -60,7 +60,7 @@
           <option value="Tee branch">Tee branch</option>
           <option value="Tee through">Tee through</option>
         </select>
-        <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="deleteFitting(parent_index,child_index)">Remove</button>
+        <button class="my-2 bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="deleteFitting(parent_index,child_index)">Remove</button>
         <h1 class="mb-2">Fitting {{child_index + 1 }}: Quantity and Type </h1>
       </div>
     </div>

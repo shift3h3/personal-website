@@ -58,19 +58,19 @@
           </h1>
           <div class="pt-12 md:text-right md:ml-12 md:mr-5 mx-12" v-for="content in designContent" :key="content">
             <h1 class="text-2xl font-bold">{{content.title}}</h1>
-            <p class="text-lg text-justify">{{content.text}}</p>
+            <p class="text-lg md:text-justify">{{content.text}}</p>
           </div>
         </div>
       </router-link>
       <router-link to="programming">
-        <div class="md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
+        <div class="mt-12 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
           <h1 class="text-left text-7xl font-bold md:mx-5 mx-12">CODING</h1>
           <h1 class="text-left text-5xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
             {{content.title}}
           </h1>
           <div class="pt-12 text-left md:mr-12 md:ml-5 mx-12" v-for="content in codeContent" :key="content">
             <h1 class="text-2xl font-bold">{{content.title}}</h1>
-            <p class="text-lg text-justify">{{content.text}}</p>
+            <p class="text-lg md:text-justify">{{content.text}}</p>
           </div>
         </div>
       </router-link>

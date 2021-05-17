@@ -173,7 +173,8 @@
       </p>
     </div>
     <div 
-      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto rounded-3xl" 
+      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto" 
+      style="border-radius:75px"
     ></div>
     <div class="my-10 grid lg:grid-cols-2">
       <div class="my-5 mx-2">
@@ -231,7 +232,7 @@ export default {
   },
   methods:{
     stopModal(){
-      this.modalOn = window.innerWidth > 1024;
+      this.modalOn = window.innerWidth > 766;
     }
   },
   components:{Banner, Modal}
