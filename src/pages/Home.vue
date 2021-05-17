@@ -48,7 +48,7 @@
     <div id="project" class="h-32"></div>
     <!-- projects -->
     <!-- text -->
-    <h1 class="text-cusblue-500 text-center">Mechanical Design and Programming</h1>
+    <h1 class="text-cusblue-500 md:text-center md:mx-5 mx-12">Mechanical Design and Programming</h1>
     <div class="grid md:grid-cols-2 text-white">
       <router-link to="/modeling">
         <div class="transition-all duration-500 hover:text-blue-200 cursor-pointer">

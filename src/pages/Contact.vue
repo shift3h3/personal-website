@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/michael-he-93b6591b7/">  
     <h1 class="cursor-pointer transition-all duration-250 transform hover:scale-125 text-5xl font-bold linkedin-color"><i class="fab fa-linkedin"></i> LinkedIn</h1>
   </a>
-  <h1 class="my-12 text-5xl font-bold"> michaelhe3078@gmail.com</h1>
+  <h1 class="my-12 lg:text-5xl md:text-3xl text-2xl font-bold"> michaelhe3078@gmail.com</h1>
 </div>
 </template>
 

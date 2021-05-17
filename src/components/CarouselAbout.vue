@@ -1,6 +1,6 @@
 <template>
   <div class="mb-32">
-    <div class="p-5 grid lg:grid-cols-2 text-gray-700">
+    <div class="sm:p-5 grid lg:grid-cols-2 text-gray-700">
       <!-- headings -->
       <div 
         class="lg:text-right xl:text-7xl lg:text-6xl text-5xl md:text-7xl lg:bg-gradient-to-r from-transparent :to-white px-5"

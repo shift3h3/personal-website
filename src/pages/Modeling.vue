@@ -173,8 +173,7 @@
       </p>
     </div>
     <div 
-      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto" 
-      style="border-radius:75px"
+      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto rounded-3xl" 
     ></div>
     <div class="my-10 grid lg:grid-cols-2">
       <div class="my-5 mx-2">

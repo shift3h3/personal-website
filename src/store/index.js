@@ -12,7 +12,7 @@ const store = createStore({
             reveal: 0,
             // links used in AppHeader and AppHeaderMobile
             links: [
-                { title: "HOME", to: "/" },
+                { title: "Home", to: "/" },
                 { title: "Experiences", to: "/experience" },
                 { title: "Modeling", to: "/modeling" },
                 { title: "Programming", to: "/programming" },
