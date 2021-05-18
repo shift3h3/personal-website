@@ -9,8 +9,8 @@
   </div>
   <div class="text-xl py-3">
     <p>The friction factor is determined using the Colebrook-White equation. Colebrook-White equation requires an iterative method to determine the friction factor.</p>
-    <p class="text-xl py-3 text-center">The Colebrook-White equation is shown below:</p>
-    <div>\[\frac{1}{\sqrt{f}}=-2 log\left(\frac{2.51}{Re\sqrt{f}}+\frac{e}{3.72d}\right)\]</div>
+    <p class="sm:text-xl text-xs py-3 text-center">The Colebrook-White equation is shown below:</p>
+    <div class="transform sm:scale-100 scale-50">\[\frac{1}{\sqrt{f}}=-2 log\left(\frac{2.51}{Re\sqrt{f}}+\frac{e}{3.72d}\right)\]</div>
   </div>
   <div class="text-xl py-3">
     <p>For most air duct systems, codes and standards dictate the maximum velocity for a duct system. The fluid velocity is determined by converting the volumetric flow rate.</p>
@@ -92,5 +92,9 @@ export default {
 </script>
 
 <style>
-
+@media(max-width:450){
+  .eqn-size{
+    font-size: 0.5px !important;
+  }
+}
 </style>

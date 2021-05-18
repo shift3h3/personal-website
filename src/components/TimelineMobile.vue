@@ -46,7 +46,7 @@
         <div class="text-md text-cusblue-500 ">
           <h1>What I learned...</h1>
         </div>
-        <div class="md:text-lg text-sm text-white w-2/3">
+        <div class="md:text-lg text-sm text-white w-10/12">
           <div class="my-5">
             <h1 class="text-xl tracking-widest">PHYSCOLOGY</h1>
             <h1>Human Psychology, Brain and Behavior, Individual and Social Behavior, Behavior Modification, and Cognitive Psychology</h1>
@@ -114,7 +114,7 @@
         <div class="text-xl font-bold tracking-widest text-white ">
           <h1>WHAT I LEARNED</h1>
         </div>
-        <div class="text-md text-white pt-10 tracking-widest">
+        <div class="sm:text-md text-xs text-white pt-10 tracking-widest">
           <h1>STATISTICS</h1>
           <h1>MATERIAL SCIENCE</h1>
           <h1>ADVANCE CALCULUS</h1>
@@ -211,7 +211,7 @@
           <h1>GRADUATED 2020</h1>
           <h1>WHAT I LEARNED</h1>
         </div>
-        <div class="text-md text-white tracking-widest pt-10">
+        <div class="sm:text-md text-xs text-white tracking-widest pt-10">
             <h1>MATLAB</h1>
             <h1>SOLIDWORKS</h1>
             <h1>HEAT TRANSFER</h1>
@@ -322,4 +322,5 @@ export default {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
+
 </style>

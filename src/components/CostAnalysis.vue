@@ -4,9 +4,9 @@
   <div class="relative section-form bg-gray-200 py-1 px-2 rounded-3xl my-12 shadow-2xl">
     <!-- input area -->
     <div class="flex data-form sm:px-2 my-5 text-center justify-center">
-      <div class="text-md px-8" v-for="pump in dataList" :key="pump">
+      <div class="text-md sm:px-8 px-1" v-for="pump in dataList" :key="pump">
         <input 
-          class="w-28 rounded-md text-center" type="number" min="0" step="1" @onkeypress="isNumberKey(this, event);" 
+          class="sm:w-28 w-24 rounded-md text-center" type="number" min="0" step="1" @onkeypress="isNumberKey(this, event);" 
           v-model="$data[pump.data]"
         >
           <h1 class="text-sm">{{pump.heading}}</h1>

@@ -2,16 +2,16 @@
 <!-- instructions -->
 <div class="pb-5 px-12">
   <h1 class="text-center text-4xl font-bold py-5">Instructions</h1>
-  <ul class="text-xl list-disc px-8 instruction-width mx-auto">
-    <li>Enter the operating conditions of the mechanical system</li>
-    <li>Select the fluid by inputting the fluid density and viscosity at the operating temperature.</li>
-    <li>Enter added pressure that the system may experience</li>
-    <li>Select the pipe material by inputting the roughness</li>
-    <li>Add or remove fitting quantity and type</li>
-    <li>Add or remove sections of duct</li>
-    <li>Press the calculate to generate the pump system curve.</li> 
-    <li>Add or remove new branches of duct</li>
-  </ul>
+  <div class="text-xl sm:px-8 mx-auto">
+    <h1>1. Enter the operating conditions of the mechanical system</h1>
+    <h1>2. Select the fluid by inputting the fluid density and viscosity at the operating temperature.</h1>
+    <h1>3. Enter added pressure that the system may experience</h1>
+    <h1>4. Select the pipe material by inputting the roughness</h1>
+    <h1>5. Add or remove fitting quantity and type</h1>
+    <h1>6. Add or remove sections of duct</h1>
+    <h1>6. Press the calculate to generate the pump system curve.</h1> 
+    <h1>6. Add or remove new branches of duct</h1>
+  </div>
 </div>
 <!-- END instructions -->
 <!-- material table -->

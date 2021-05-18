@@ -1,15 +1,15 @@
 <template>
 <!-- instructions -->
-  <div class="pb-5 px-12">
-    <h1 class="text-center text-4xl font-bold py-5">Instructions</h1>
-    <ul class="text-xl list-disc px-8 instruction-width mx-auto">
-      <li>Enter the operating conditions of the pump</li>
-      <li>Select the fluid by inputting the fluid density and viscosity at the operating temperature.</li>
-      <li>Select the pipe material by inputting the roughness</li>
-      <li>Enter the acceptable safety factor</li> 
-      <li>Press the calculate to generate the pump system curve.</li> 
-    </ul>
+<div class="pb-5 px-12">
+  <h1 class="text-center text-4xl font-bold py-5">Instructions</h1>
+  <div class="text-xl sm:px-8 mx-auto">
+    <h1>1. Enter the operating conditions of the pump</h1>
+    <h1>2. Select the fluid by inputting the fluid density and viscosity at the operating temperature.</h1>
+    <h1>3. Select the pipe material by inputting the roughness</h1>
+    <h1>4. Enter the acceptable safety factor</h1>
+    <h1>5. Press the calculate to generate the pump system curve.</h1>
   </div>
+</div>
   <!-- END instructions -->
   <!-- K chart -->
   <div class="md:mx-40 mx-10">

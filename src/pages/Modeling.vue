@@ -23,10 +23,10 @@
   <!-- END modals -->
   <!-- autocad -->
   <div class="mx-5 mb-96">
-    <h1 class="text-center text-5xl font-bold pb-12">AUTOCAD DRAWINGS</h1>
+    <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">AUTOCAD DRAWINGS</h1>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b1 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
+        class="bg-gray-100 cursor-pointer relative box-height b1 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[8].toggle = true"
       ></div>
       <div class=" py-4">
@@ -51,11 +51,11 @@
     </div>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b2 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
+        class="bg-gray-100 cursor-pointer relative box-height b2 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[9].toggle = true"
       ></div>
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b3 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
+        class="bg-gray-100 cursor-pointer relative box-height b3 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[10].toggle = true"
       ></div>
     </div>
@@ -69,11 +69,11 @@
     </div>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b4 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
+        class="bg-gray-100 cursor-pointer relative box-height b4 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[11].toggle = true"
       ></div>
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b5 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
+        class="bg-gray-100 cursor-pointer relative box-height b5 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[12].toggle = true"
       ></div>
     </div>
@@ -84,13 +84,11 @@
     <h1 class="text-center text-5xl font-bold pb-12">REMOTE CONTROL VEHICLE</h1>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height carfront mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
-        style="border-radius:75px"
+        class="bg-gray-100 cursor-pointer relative box-height carfront mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width rounded-3xl" 
         @click="modalPicture[0].toggle = true"
       ></div>
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height cariso mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
-        style="border-radius:75px"
+        class="bg-gray-100 cursor-pointer relative box-height cariso mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width rounded-3xl" 
         @click="modalPicture[1].toggle = true"
       ></div>
     </div>
@@ -107,11 +105,10 @@
   <!-- END remote control vehicle -->
   <!-- pasta -->
   <div class="mx-5 mb-96">
-    <h1 class="text-center text-5xl font-bold pb-12">PASTA MAKER</h1>
+    <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">PASTA MAKER</h1>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 my-12">
       <div 
-        class="bg-gray-100 relative pasta-height pasta1 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
-        style="border-radius:75px"
+        class="bg-gray-100 relative pasta-height pasta1 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pasta-dim rounded-3xl" 
         @click="modalPicture[2].toggle = true"
       ></div>
       <div class="mx-5">
@@ -134,8 +131,7 @@
         <p class="sm:text-2xl">The piston design will require the user to insert pre-made dough into the cylinder. The device uses a motor to drive a crank mechanism that generates enough force to push the dough out of the nozzle. The nozzle is interchangeable, allowing for more variety of pasta. After the piston extends to maximum length, it will return to its original position to repeat the process. The piston design is simple to maintain due to less moving parts.</p>
       </div>
       <div 
-        class="bg-gray-100 relative pasta-height pasta2 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105" 
-        style="border-radius:75px"
+        class="bg-gray-100 relative pasta-height pasta2 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pasta-dim rounded-3xl" 
         @click="modalPicture[3].toggle = true"
       ></div>
     </div>
@@ -143,26 +139,24 @@
   <!-- END pasta -->
   <!-- wheelchair -->
   <div class="mx-5 pb-20">
-    <h1 class="text-center text-5xl font-bold pb-12">WHEELCHAIR ERGOMETER</h1>
+    <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">WHEELCHAIR ERGOMETER</h1>
     <div class="grid lg:grid-cols-4 md:grid-cols-2 mx-5 mb-8">
       <div 
-        class="we1 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105" 
-        style="border-radius:75px"
+        class="we1 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
         @click="modalPicture[4].toggle = true"
       ></div>
       <div 
-        class="we2 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105" 
-        style="border-radius:75px"
+        class="we2 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
+
         @click="modalPicture[5].toggle = true"
       ></div>
       <div 
-        class="we3 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105" 
-        style="border-radius:75px"
+        class="we3 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
         @click="modalPicture[6].toggle = true"
       ></div>
       <div 
-        class="we4 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105" 
-        style="border-radius:75px"
+        class="we4 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
+
         @click="modalPicture[7].toggle = true"
       ></div>
     </div>
@@ -173,8 +167,7 @@
       </p>
     </div>
     <div 
-      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto" 
-      style="border-radius:75px"
+      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto rounded-3xl" 
     ></div>
     <div class="my-10 grid lg:grid-cols-2">
       <div class="my-5 mx-2">
@@ -240,6 +233,7 @@ export default {
 </script>
 
 <style>
+
 .pasta-height{
   height:600px;
 }
@@ -262,8 +256,23 @@ export default {
 }
 @media(max-width:550px){
   .box-dim{
-    height: 150px;
-    width: 378.75px;
+    height: 110px;
+    width: 250px;
+  }
+  .pic-width{
+  height: 140px !important;
+  width: 250px;
+  margin: 2px auto;
+  }
+  .pasta-dim{
+  height: 260px !important;
+  width: 200px;
+  margin: 2px auto;
+  }
+  .we-dim{
+  height: 220px !important;
+  width: 250px;
+  margin: 2px auto;
   }
 }
 @media(max-width:1200px){
@@ -282,6 +291,14 @@ export default {
 @media(max-width:766px){
   .we-height{
   height:400px;
+  }
+  .box-height{
+  height:360px;
+  }
+}
+@media(max-width:640px ){
+  .box-height{
+  height:300px;
   }
 }
 </style>

@@ -8,7 +8,7 @@
       class="absolute top-1/2 left-1/2"
       style="transform:translate(-50%,-50%)"
     >
-    <h1 class="md:text-8xl text-6xl font-bold text-center text-white">
+    <h1 class="md:text-8xl sm:text-6xl text-5xl font-bold text-center text-white">
       {{dataBannerInfo.heading}}
     </h1>
     </div>
