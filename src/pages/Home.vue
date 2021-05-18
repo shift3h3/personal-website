@@ -12,7 +12,7 @@
     <!-- end carousel -->
     <!-- about -->
     <div id="about" class="h-32"></div>
-    <h1 class="text-8xl font-bold text-center text-gray-700 pb-12">
+    <h1 class="sm:text-8xl text-6xl font-bold text-center text-gray-700 pb-12">
       ABOUT
     </h1>
     <div class="mb-28">
@@ -38,7 +38,7 @@
     <div>
       <div class="text-center text-white pt-16 ">
         <h1 class="text-cusblue-500">Career and Professional Work</h1>
-        <h1 class="sm:text-7xl text-5xl mx-auto mb-20">EXPERIENCES</h1>
+        <h1 class="sm:text-7xl text-4xl mx-auto mb-20">EXPERIENCES</h1>
       </div>
       <div class="overflow-x-hidden">
         <Hexagon />
@@ -52,24 +52,24 @@
     <div class="grid md:grid-cols-2 text-white">
       <router-link to="/modeling">
         <div class="transition-all duration-500 hover:text-blue-200 cursor-pointer">
-          <h1 class="md:text-right text-7xl font-bold md:mx-5 mx-12">DESIGN</h1>
-          <h1 class="md:text-right text-5xl  md:mx-5 mx-12" v-for="content in designContent" :key="content">
+          <h1 class="md:text-right sm:text-7xl text-3xl font-bold md:mx-5 mx-12">DESIGN</h1>
+          <h1 class="md:text-right sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in designContent" :key="content">
             {{content.title}}
           </h1>
           <div class="pt-12 md:text-right md:ml-12 md:mr-5 mx-12" v-for="content in designContent" :key="content">
-            <h1 class="text-2xl font-bold">{{content.title}}</h1>
+            <h1 class="sm:text-2xl text-xl font-bold">{{content.title}}</h1>
             <p class="text-lg md:text-justify">{{content.text}}</p>
           </div>
         </div>
       </router-link>
       <router-link to="programming">
         <div class="md:mt-0 mt-12 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
-          <h1 class="text-left text-7xl font-bold md:mx-5 mx-12">CODING</h1>
-          <h1 class="text-left text-5xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
+          <h1 class="text-left sm:text-7xl text-3xl font-bold md:mx-5 mx-12">CODING</h1>
+          <h1 class="text-left sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
             {{content.title}}
           </h1>
           <div class="pt-12 text-left md:mr-12 md:ml-5 mx-12" v-for="content in codeContent" :key="content">
-            <h1 class="text-2xl font-bold">{{content.title}}</h1>
+            <h1 class="sm:text-2xl text-xl font-bold">{{content.title}}</h1>
             <p class="text-lg md:text-justify">{{content.text}}</p>
           </div>
         </div>

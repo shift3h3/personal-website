@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-    <div class="carousel-content w-full h-screen relative overflow-x-hidden">
+    <div class="w-full h-screen relative overflow-x-hidden">
       <!-- main slide: picture, title, and text -->
       <div class="absolute w-full px-5" v-for="(slide, index) in sliders" :key="slide">
         <transition name="fade">
@@ -114,10 +114,6 @@ button:focus{
     height:1000px !important;
   }
 }
-@media (max-width: 640px){
-  .carousel-content{
-    border-radius: 50px !important;
-  }
-}
+
 
 </style>

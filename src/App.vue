@@ -1,5 +1,5 @@
 <template>
-<div class="mx-auto" style="max-width:1600px; min-width:460px;">
+<div class="mx-auto" style="max-width:1600px; min-width:320px;">
   <div class="absolute z-30">
     <AppHeaderMobile v-if="mobileView"/>
     <AppHeader v-if="!mobileView"/>

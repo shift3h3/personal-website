@@ -12,7 +12,7 @@
       >
         <router-link
           to="/experience"
-          class="w-full py-10 xl:text-2xl lg:text-xl md:text-lg sm:text-md text-sm left-1/2 top-1/2 text-white"
+          class="w-full py-10 xl:text-2xl lg:text-xl md:text-lg sm:text-md text-xs left-1/2 top-1/2 text-white"
           style="transform:translate(-50%,-50%);"
         >
           SYNCRUDE CANADA
@@ -71,7 +71,7 @@
       >
         <router-link
           to="/experience"
-          class="w-full py-10 xl:text-2xl lg:text-xl md:text-lg sm:text-md text-sm left-1/2 top-1/2 text-white"
+          class="w-full py-10 xl:text-2xl lg:text-xl md:text-lg sm:text-md text-xs left-1/2 top-1/2 text-white"
           style="transform:translate(-50%,-50%);"
         >
           GOVERNMENT OF CANADA
@@ -111,10 +111,10 @@
       >
         <router-link
           to="/experience"
-          class="w-full py-10 xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-md left-1/2 top-1/2 text-white"
+          class="w-full py-10 xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-sm left-1/2 top-1/2 text-white"
           style="transform:translate(-50%,-50%);"
         >
-          WHAT I DO
+          WHAT I DID
         </router-link>
       </div>
     </div>
@@ -194,7 +194,7 @@
       >
         <router-link
           to="/experience"
-          class="w-full py-10 xl:text-2xl lg:text-xl md:text-lg sm:text-md text-sm left-1/2 top-1/2 text-white"
+          class="w-full py-10 xl:text-2xl lg:text-xl md:text-lg sm:text-md text-xs left-1/2 top-1/2 text-white"
           style="transform:translate(-50%,-50%);"
         >
           UNIVERSITY OF ALBERTA

@@ -8,12 +8,12 @@
                 'transition-color duration-500 ':revealNavbar,
                 'transition-color duration-500 bg-transparent':!revealNavbar,
                 'opacity-100 bg-transparent bg-none pt-4 pb-3': scrollPosition === 0,
-                'bg-black sm:mx-10 mx-3 mt-2': scrollPosition!=0 && revealNavbar,
+                'bg-black sm:mx-10 mx-2 mt-2': scrollPosition!=0 && revealNavbar,
                 }"
     >
         <router-link 
             to="/" 
-            class="relative mx-7 inline-block  px-4 pt-3 pb-3 font-extrabold text-4xl"
+            class="relative mx-7 inline-block  sm:px-4 pt-3 pb-3 font-extrabold text-4xl"
             :class="{
                     'transition-opacity duration-1000 opacity-100':revealNavbar,
                     'transition-opacity duration-1000 opacity-0':!revealNavbar,
