@@ -4,7 +4,7 @@
   <Banner class="mb-40" :data-banner-info="banner" />
   <!-- END banner -->
   <!-- modals -->
-  <div v-if="modalOn">
+  <div>
     <div v-for="modal in modalPicture" :key="modal">
       <Modal v-if="modal.toggle" @close="modal.toggle = false">
         <template #title>
@@ -12,10 +12,11 @@
         </template>
         <template #body>
           <div 
-            class="bg-gray-100 relative modal-dim bg-no-repeat bg-center bg-cover" 
-            :class="modal.picture"
-
-          ></div>
+            class="overflow-auto relative" 
+            :class="{'modal-dim':modalOn, 'small-modal-dim': !modalOn}"
+          >
+            <img style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%)" :src="modal.picture" alt="">
+          </div>
         </template>
       </Modal>
     </div>
@@ -26,9 +27,11 @@
     <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">AUTOCAD DRAWINGS</h1>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b1 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
+        class="cursor-pointer relative mt-4 mx-5 transition-all transform hover:scale-105 pic-width" 
         @click="modalPicture[8].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/b1.jpg" alt="overview">
+      </div>
       <div class=" py-4">
         <div class="lg:text-4xl md:text-3xl sm:text-2xl text-md font-bold">
           <h1>BADMINTON FACILITY</h1>
@@ -51,13 +54,17 @@
     </div>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b2 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
+        class="cursor-pointer relative mt-4 mx-5 transition-all transform hover:scale-105 pic-width" 
         @click="modalPicture[9].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/b2.jpg" alt="blocks">
+      </div>
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b3 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
+        class="cursor-pointer relative  mt-4 mx-5 transition-all transform hover:scale-105 pic-width" 
         @click="modalPicture[10].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/b3.jpg" alt="HVAC">
+      </div>
     </div>
     <div class="my-5 lg:px-12 lg:mx-0 md:mx-24 mx-5">
       <div class="lg:text-4xl md:text-3xl sm:text-2xl text-md font-bold">
@@ -69,28 +76,36 @@
     </div>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b4 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
+        class="cursor-pointer relative  mt-4 mx-5 transition-all transform hover:scale-105 pic-width" 
         @click="modalPicture[11].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/b4.jpg" alt="pipes">
+      </div>
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height b5 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
+        class="cursor-pointer relative  mt-4 mx-5 transition-all transform hover:scale-105 pic-width" 
         @click="modalPicture[12].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/b5.jpg" alt="washroom">
+      </div>
     </div>
   </div>
   <!-- END autocad -->
   <!-- remote control vehicle -->
   <div class="mx-5 mb-96">
-    <h1 class="text-center text-5xl font-bold pb-12">REMOTE CONTROL VEHICLE</h1>
+    <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">REMOTE CONTROL VEHICLE</h1>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 pb-12">
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height carfront mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width rounded-3xl" 
+        class="bg-gray-100 cursor-pointer relative rounded-3xl mt-4 mx-5 transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[0].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/carfront.png" alt="front view">
+      </div>
       <div 
-        class="bg-gray-100 cursor-pointer relative box-height cariso mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pic-width rounded-3xl" 
+        class="bg-gray-100 cursor-pointer relative rounded-3xl mt-4 mx-5 transition-all transform hover:bg-gray-200 hover:scale-105 pic-width" 
         @click="modalPicture[1].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/cariso.png" alt="isometric view">
+      </div>
     </div>
     <div class="my-5 px-12" style="border-radius:75px">
       <div class="pb-5 lg:text-4xl md:text-3xl sm:text-2xl text-md font-bold">
@@ -108,9 +123,11 @@
     <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">PASTA MAKER</h1>
     <div class="grid lg:grid-cols-2 lg:mx-0 md:mx-24 mx-5 my-12">
       <div 
-        class="bg-gray-100 relative pasta-height pasta1 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pasta-dim rounded-3xl" 
+        class="bg-gray-100 cursor-pointer relative rounded-3xl mt-4 mx-5 transition-all transform hover:bg-gray-200 hover:scale-105" 
         @click="modalPicture[2].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/pasta1.png" alt="pasta maker">
+      </div>
       <div class="mx-5">
         <div class="pb-5 lg:text-4xl md:text-3xl sm:text-2xl text-md font-bold">
           <h1>GEAR ANALYSIS</h1>
@@ -131,53 +148,64 @@
         <p class="sm:text-2xl">The piston design will require the user to insert pre-made dough into the cylinder. The device uses a motor to drive a crank mechanism that generates enough force to push the dough out of the nozzle. The nozzle is interchangeable, allowing for more variety of pasta. After the piston extends to maximum length, it will return to its original position to repeat the process. The piston design is simple to maintain due to less moving parts.</p>
       </div>
       <div 
-        class="bg-gray-100 relative pasta-height pasta2 mt-4 mx-5 h-96 bg-no-repeat bg-center bg-cover transition-all transform hover:bg-gray-200 hover:scale-105 pasta-dim rounded-3xl" 
+        class="bg-gray-100 cursor-pointer relative rounded-3xl mt-4 mx-5 transition-all transform hover:bg-gray-200 hover:scale-105" 
         @click="modalPicture[3].toggle = true"
-      ></div>
+      >
+        <img src="../assets/images/pasta2.png" alt="pasta maker">
+      </div>
     </div>
   </div>
   <!-- END pasta -->
   <!-- wheelchair -->
   <div class="mx-5 pb-20">
     <h1 class="text-center sm:text-5xl text-3xl font-bold pb-12">WHEELCHAIR ERGOMETER</h1>
-    <div class="grid lg:grid-cols-4 md:grid-cols-2 mx-5 mb-8">
+    <div class="grid lg:grid-cols-4 grid-cols-2 mx-5 mb-8">
       <div 
-        class="we1 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
+        class="cursor-pointer mt-4 sm:mx-5 transition-all transform hover:scale-105" 
         @click="modalPicture[4].toggle = true"
-      ></div>
+      >
+        <img class="rounded-3xl" src="../assets/images/we1.png" alt="we1">
+      </div>
       <div 
-        class="we2 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
-
+        class="cursor-pointer mt-4 sm:mx-5 transition-all transform hover:scale-105" 
         @click="modalPicture[5].toggle = true"
-      ></div>
+      >
+        <img class="rounded-3xl" src="../assets/images/we2.png" alt="we2">
+      </div>
       <div 
-        class="we3 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
+        class="cursor-pointer mt-4 sm:mx-5 transition-all transform hover:scale-105" 
         @click="modalPicture[6].toggle = true"
-      ></div>
+      >
+        <img class="rounded-3xl" src="../assets/images/we3.png" alt="we3">
+      </div>
       <div 
-        class="we4 cursor-pointer we-height mt-4 sm:mx-5 bg-no-repeat bg-center bg-cover transition-all transform hover:scale-105 we-dim rounded-3xl" 
-
+        class="cursor-pointer mt-4 sm:mx-5 transition-all transform hover:scale-105" 
         @click="modalPicture[7].toggle = true"
-      ></div>
+      >
+        <img class="rounded-3xl" src="../assets/images/we4.png" alt="we4">
+      </div>
     </div>
     <div class="my-5 mx-2">
-      <h1 class="text-4xl font-bold text-center mb-5">PROJECT PROPOSAL</h1>
+      <h1 class="sm:text-4xl text-xl font-bold text-center mb-5">PROJECT PROPOSAL</h1>
       <p class="sm:text-2xl">
         We were contracted to design a lightweight, portable wheelchair ergometer. An ergometer is essentially a treadmill for a wheelchair. The client will use the ergometer, in a laboratory setting, to study the relationship between shoulder injuries and operating a wheelchair in everyday conditions. The client hopes to better understanding the biomechanics, which may lead to an insight to reduce injuries well using the wheelchair. The client requires the ergometer to simulate different environments using propulsion, resistance, slope adjustment, and independent wheelchair’s wheel movement. The given budget is $600.00 for materials and manufacturing. 
       </p>
     </div>
     <div 
-      class="bg-gray-400 box-dim we7 my-12 bg-no-repeat bg-center bg-cover mx-auto rounded-3xl" 
-    ></div>
+      class="cursor-pointer mt-4 sm:mx-5 transition-all transform hover:scale-105" 
+      @click="modalPicture[13].toggle = true"
+    >
+      <img class="rounded-3xl mx-auto" src="../assets/images/we7.png" alt="we7">
+    </div>
     <div class="my-10 grid lg:grid-cols-2">
       <div class="my-5 mx-2">
-        <h1 class="text-4xl font-bold text-center mb-5">ERGOMETER SPECS</h1>
+        <h1 class="sm:text-4xl text-xl font-bold text-center mb-5">ERGOMETER SPECS</h1>
         <p class="sm:text-2xl">
           The ergometer is capable of simulating 115 N of rolling resistance, and up to 15° of slope at 3° increments. The ergometer is easily portable as it is broken down into three pieces, two ergometers and one step. Each component is also equipped with wheels to improve portability. The final design’s total weight for all three pieces is 58.4 kg, with each ergometer weighing 18.5 kg and the step weighing 21.4 kg. Four cinching straps, attached to anchors on the platform, are used to secure the wheelchair in all directions. The center of gravity of the ergometer is designed to be low to the ground to reduce fall injuries and allow the wheelchair user to easily assess the ergometer.
         </p>
       </div>
       <div class="my-5 mx-2">
-        <h1 class="text-4xl font-bold text-center mb-5">PROJECT COST</h1>
+        <h1 class="sm:text-4xl text-xl font-bold text-center mb-5">PROJECT COST</h1>
         <p class="sm:text-2xl">
           The cost of materials for the proposed design is $584.45, with an additional $400 for manufacturing. While this is over the given budget of $600 CAD, we minimized the cost where possible. Propulsion is excluded from the final design as it is unachievable if the client is trying to keep material costs as close to $600 as possible. We recommends the client revises the budget to $2500 in order to safely satisfy all the design specifications initially prescribed. The motor and gearbox assemblies are included in a future work section should the client receive a higher budget. 
         </p>
@@ -196,19 +224,20 @@ export default {
     return{
       modalOn: true,
       modalPicture:[
-        {toggle:false, title: "Front View", picture:"carfront"},
-        {toggle:false, title: "Isometric View", picture:"cariso"},
-        {toggle:false, title: "Pasta Maker", picture:"pasta1"},
-        {toggle:false, title: "Pasta Maker", picture:"pasta2"},
-        {toggle:false, title: "Ergometer Ground", picture:"we1"},
-        {toggle:false, title: "Ergometer Elevated", picture:"we2"},
-        {toggle:false, title: "Stand FEA", picture:"we3"},
-        {toggle:false, title: "Stand", picture:"we4"},
-        {toggle:false, title: "Overview", picture:"b1"},
-        {toggle:false, title: "Rooms", picture:"b2"},
-        {toggle:false, title: "HVAC", picture:"b3"},
-        {toggle:false, title: "Plumbing", picture:"b4"},
-        {toggle:false, title: "Washroom", picture:"b5"},
+        {toggle:false, title: "Front View", picture:require('../assets/images/carfront.png')},
+        {toggle:false, title: "Isometric View", picture:require('../assets/images/cariso.png')},
+        {toggle:false, title: "Pasta Maker", picture:require('../assets/images/pasta1.png')},
+        {toggle:false, title: "Pasta Maker", picture:require('../assets/images/pasta2.png')},
+        {toggle:false, title: "Ergometer Ground", picture:require('../assets/images/we1.png')},
+        {toggle:false, title: "Ergometer Elevated", picture:require('../assets/images/we2.png')},
+        {toggle:false, title: "Stand FEA", picture:require('../assets/images/we3.png')},
+        {toggle:false, title: "Stand", picture:require('../assets/images/we4.png')},
+        {toggle:false, title: "Overview", picture:require('../assets/images/b1.jpg')},
+        {toggle:false, title: "Rooms", picture:require('../assets/images/b2.jpg')},
+        {toggle:false, title: "HVAC", picture:require('../assets/images/b3.jpg')},
+        {toggle:false, title: "Plumbing", picture:require('../assets/images/b4.jpg')},
+        {toggle:false, title: "Washroom", picture:require('../assets/images/b5.jpg')},
+        {toggle:false, title: "Ergometer  Wheelchair", picture:require('../assets/images/we7.png')},
       ],
       banner:{
         picture: "buildings",
@@ -233,19 +262,16 @@ export default {
 </script>
 
 <style>
-
-.pasta-height{
-  height:600px;
-}
-.we-height{
-  height:250px;
-}
 .box-dim{
   height: 300px;
   width: 757.5px;
 }
 .modal-dim{
   height: 70vh;
+  width: 80vw;
+}
+.small-modal-dim{
+  height: 50vh;
   width: 80vw;
 }
 @media(max-width:820px){
@@ -264,41 +290,10 @@ export default {
   width: 250px;
   margin: 2px auto;
   }
-  .pasta-dim{
-  height: 260px !important;
-  width: 200px;
-  margin: 2px auto;
-  }
   .we-dim{
   height: 220px !important;
   width: 250px;
   margin: 2px auto;
-  }
-}
-@media(max-width:1200px){
-  .we-height{
-  height:200px;
-  }
-}
-@media(max-width:1024px){
-  .pasta-height{
-    height:400px;
-  }
-  .we-height{
-  height:400px;
-  }
-}
-@media(max-width:766px){
-  .we-height{
-  height:400px;
-  }
-  .box-height{
-  height:360px;
-  }
-}
-@media(max-width:640px ){
-  .box-height{
-  height:300px;
   }
 }
 </style>

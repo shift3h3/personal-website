@@ -3,7 +3,7 @@
     <div class="w-full h-screen relative overflow-x-hidden">
       <!-- main slide: picture, title, and text -->
       <div class="absolute w-full px-5" v-for="(slide, index) in sliders" :key="slide">
-        <transition name="fade">
+        <transition :name="direction">
           <div
             v-if="currentSlide == index"
             class="carousel-content bg-no-repeat bg-center bg-cover rounded-3xl sm:mx-3 mx-0 transition-all duration-500"
@@ -53,6 +53,11 @@ export default {
   props: ['dataSliders'],
   data() {
     return {
+      touch: {
+        startX: 0,
+        endX: 0
+      },
+      direction: 'right',
       currentSlide: 0,
       sliders: this.dataSliders,
       interval: "",
@@ -71,6 +76,7 @@ export default {
       } else{
         this.currentSlide--
       }
+      this.direction = 'right'
     },
     // move to next slide
     next(){
@@ -79,13 +85,33 @@ export default {
       } else{
         this.currentSlide++
       }
+      this.direction = "left"
     },
+    touchstart(event) {
+      this.touch.startX = event.touches[0].clientX;
+      this.touch.endX = 0;
+    },
+    touchmove(event) {
+      this.touch.endX = event.touches[0].clientX;
+    },
+    touchend() {
+      if(!this.touch.endX || Math.abs(this.touch.endX - this.touch.startX) < 20)
+        return;
+        
+      if(this.touch.endX < this.touch.startX)
+        this.prev();
+      else
+        this.next();
+    }
   },
   mounted() {
     // move slide automatically 
     this.interval = setInterval(() => {
       this.currentSlide = this.currentSlide === this.sliders.length-1 ? 0 : this.currentSlide + 1;
-    }, 10000);
+    }, 20000);
+    this.$el.addEventListener('touchstart', event => this.touchstart(event));
+    this.$el.addEventListener('touchmove', event => this.touchmove(event));
+    this.$el.addEventListener('touchend', () => this.touchend());
   },
   beforeUnmount() {
     // clear current interval
@@ -94,18 +120,33 @@ export default {
 };
 </script>
 <style>
-.fade-enter-active,
-.fade-leave-active {
+.left-enter-active,
+.left-leave-active {
   transition: transform 1.5s ease, opacity 3s ease;
 }
-.fade-enter-from {
+.left-enter-from {
   transform: translateX(-100%);
   opacity: 0;
 }
-.fade-leave-to {
+.left-leave-to {
   transform: translateX(100%);
   opacity: 0;
 }
+
+.right-enter-active,
+.right-leave-active {
+  transition: transform 1.5s ease, opacity 3s ease;
+}
+.right-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.right-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+
 button:focus{
   outline:none;
 }
@@ -114,6 +155,4 @@ button:focus{
     height:1000px !important;
   }
 }
-
-
 </style>

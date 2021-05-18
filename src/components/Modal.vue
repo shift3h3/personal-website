@@ -7,7 +7,7 @@
     <div class="absolute inset-0" >
       <div class="flex h-full" >
         <div class="z-30 m-auto bg-white shadow overflow-hidden rounded-3xl">
-          <div class="" >
+          <div>
             <h1 class="text-2xl">
               <slot name="title"></slot>
             </h1>
