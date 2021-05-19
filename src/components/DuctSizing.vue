@@ -79,16 +79,16 @@
     <button class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
   </div> 
   <div class="text-center mt-5">
-    <button class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="addSection">New Section</button>
-    <button class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" type="submit" @click="calculateAll" @submit.prevent="calculateAll">Calculate</button>
+    <button class="my-1 bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="addSection">New Section</button>
+    <button class="my-1 bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" type="submit" @click="calculateAll" @submit.prevent="calculateAll">Calculate</button>
   </div>
   <!-- END section bottom buttons -->
   <!-- charts -->
-  <div v-if="showTable" class="transform sm:scale-100 scale-75">
+  <div v-if="showTable" class="">
     <!-- rounded diameter -->
     <div class="relative bg-gray-200 shadow-2xl py-1 my-12 rounded-3xl" v-if="!this.charts.roundedD">
-      <h1 class="text-3xl my-5 text-center">Rounded Diameter with cooresponding changes in Head Loss</h1>
-      <table class="mx-auto my-5 md:text-lg text-xs">
+      <h1 class="sm:text-3xl my-5 text-center">Rounded Diameter with cooresponding changes in Head Loss</h1>
+      <table class="mx-auto my-5 md:text-lg text-xs chart-font">
         <tr class="">
           <th class="sm:px-2">Section</th>
           <th class="sm:px-2">Diameter (in)</th>
@@ -114,8 +114,8 @@
     <!-- END rounded diameter -->
     <!-- actual diameter -->
     <div class="relative bg-gray-200 shadow-2xl py-1 my-12 rounded-3xl" v-if="!this.charts.actualD">
-      <h1 class="text-3xl my-5 text-center">Unrounded Diameter with target Head Loss</h1>
-      <table class="mx-auto my-5 md:text-lg text-xs">
+      <h1 class="sm:text-3xl my-5 text-center">Unrounded Diameter with target Head Loss</h1>
+      <table class="mx-auto my-5 md:text-lg text-xs chart-font">
         <tr class="">
           <th class="sm:px-2">Section</th>
           <th class="sm:px-2">Diameter (in)</th>
@@ -517,5 +517,9 @@ export default {
 </script>
 
 <style>
-
+@media (max-width: 455px){
+  .chart-font{
+    font-size:7px !important;
+  }
+}
 </style>

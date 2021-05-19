@@ -9,7 +9,7 @@
         <h1 class="cursor-pointer transition-all duration-250 hover:text-black transform hover:scale-105"><i class="fas fa-envelope"></i> Gmail</h1>
       </router-link>
     </div>
-    <router-link to="/">
+    <router-link @click="scrollToTop" to="/">
       <div class="cursor-pointer transition-all duration-250 hover:text-black transform hover:scale-105">
         <h1>MICHAEL HE</h1>
         <h1>MECHANICAL</h1>
@@ -22,7 +22,11 @@
 
 <script>
 export default {
-
+  methods:{
+    scrollToTop(){
+      window.scrollTo(0,0)
+    }
+  }
 }
 </script>
 

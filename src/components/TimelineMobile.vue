@@ -43,23 +43,23 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/4 ml-5 mr-20" style="">
-        <div class="text-md text-cusblue-500 ">
+        <div class="text-md text-cusblue-500 top-2013-a">
           <h1>What I learned...</h1>
         </div>
         <div class="md:text-lg text-sm text-white w-10/12">
-          <div class="my-5">
+          <div class="my-5 left-2013-a">
             <h1 class="text-xl tracking-widest">PHYSCOLOGY</h1>
             <h1>Human Psychology, Brain and Behavior, Individual and Social Behavior, Behavior Modification, and Cognitive Psychology</h1>
           </div>
-          <div class="my-5">
+          <div class="my-5 left-2013-b">
             <h1 class="text-xl tracking-widest">BIOLOGY</h1>
             <h1>Cell Biology, Molecular Genetics and Heredity, Human Physiology, Cellular Neuroscience, and Functional Neuroanatomy</h1>
           </div>
-          <div class="my-5">
+          <div class="my-5 left-2013-c">
             <h1 class="text-xl tracking-widest">PHYSICS</h1>
             <h1>Particles, Fluids, Fields, Radiation, Waves Motion, Optics, and Sound</h1>
           </div>
-          <div class="my-5">
+          <div class="my-5 left-2013-d">
             <h1 class="text-xl tracking-widest">CHEMISTRY</h1>
             <h1>Inorganic Chemistry, Organic Chemistry, Pharmacology, and Biochemistry</h1>
           </div>
@@ -75,11 +75,11 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <div class="text-white ">
+        <div class="text-white top-2014-a">
           <h1 class="text-md text-cusblue-500">I discovered my passion for</h1>
           <h1 class="text-xl">ENGINEERING AND COMPUTER SCIENCE</h1>
         </div>
-        <div class="text-md text-white pt-5">
+        <div class="text-md text-white pt-5 left-2014-a">
           <h1>I taught myself how to program</h1>
           <h1>Pursued a degree in Engineering.</h1>
         </div>
@@ -94,11 +94,11 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500">Enrolled in</h1>
+        <h1 class="text-cusblue-500 top-2015-a">Enrolled in</h1>
         <div class="text-xl text-white ">
-          <h1>BACHELOR OF SCIENCE IN</h1>
-          <h1>MECHANICAL ENGINEERING</h1>
-          <h1>FACULTY OF ENGINEERING</h1>
+          <h1 class="left-2015-a">BACHELOR OF SCIENCE IN</h1>
+          <h1 class="left-2015-b">MECHANICAL ENGINEERING</h1>
+          <h1 class="left-2015-c">FACULTY OF ENGINEERING</h1>
         </div>
       </div>
     </div>
@@ -111,20 +111,20 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/4 ml-5 mr-20" style="">
-        <div class="text-xl font-bold tracking-widest text-white ">
+        <div class="text-xl font-bold tracking-widest text-white top-2016-a">
           <h1>WHAT I LEARNED</h1>
         </div>
         <div class="sm:text-md text-xs text-white pt-10 tracking-widest">
-          <h1>STATISTICS</h1>
-          <h1>MATERIAL SCIENCE</h1>
-          <h1>ADVANCE CALCULUS</h1>
-          <h1>ENGINEERING ECONOMY</h1>
-          <h1>THERMO-FLUID SCIENCE</h1>
-          <h1>ENGINEERING MECHANICS</h1>
-          <h1>DIFFERENTIAL EQUATIONS</h1>
-          <h1>ENGINEERING THERMODYNAMICS</h1>
-          <h1>MECHANICS DEFORMABLE BODIES</h1>
-          <h1>FUNDAMENTALS OF ELECTRICAL ENGINEERING</h1>
+          <h1 class="left-2016-a">STATISTICS</h1>
+          <h1 class="left-2016-b">MATERIAL SCIENCE</h1>
+          <h1 class="left-2016-c">ADVANCE CALCULUS</h1>
+          <h1 class="left-2016-d">ENGINEERING ECONOMY</h1>
+          <h1 class="left-2016-e">THERMO-FLUID SCIENCE</h1>
+          <h1 class="left-2016-f">ENGINEERING MECHANICS</h1>
+          <h1 class="left-2016-g">DIFFERENTIAL EQUATIONS</h1>
+          <h1 class="left-2016-h">ENGINEERING THERMODYNAMICS</h1>
+          <h1 class="left-2016-i">MECHANICS DEFORMABLE BODIES</h1>
+          <h1 class="left-2016-j">FUNDAMENTALS OF ELECTRICAL ENGINEERING</h1>
         </div>
       </div>
     </div>
@@ -137,16 +137,16 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500">Worked at</h1>
-        <div class="text-white tracking-widest">
+        <h1 class="text-cusblue-500 top-2017-a">Worked at</h1>
+        <div class="text-white tracking-widest top-2017-b">
           <h1 class="font-bold text-xl">UNIVERSITY OF ALBERTA</h1>
           <h1 class="text-sm">DEPARTMENT OF ENVIRONMENT, HEALTH, AND SAFETY</h1>
           <h1 class="text-lg"></h1>
         </div>
         <div class="text-md text-white pt-10">
-          <h1>Inspected machinery equipment in laboratories.</h1>
-          <h1>Implemented strategies for machinery equipment maintenance.</h1>
-          <h1>Conducted safety inspections to make sure lab workers are working safely.</h1>
+          <h1 class="left-2017-a">Inspected machinery equipment in laboratories.</h1>
+          <h1 class="left-2017-b">Implemented strategies for machinery equipment maintenance.</h1>
+          <h1 class="left-2017-c">Conducted safety inspections to make sure lab workers are working safely.</h1>
         </div>
       </div>
     </div>
@@ -159,18 +159,18 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500">Worked at</h1>
-        <div class="text-white tracking-widest">
+        <h1 class="text-cusblue-500 top-2018-a">Worked at</h1>
+        <div class="text-white tracking-widest top-2018-b">
           <h1 class="font-bold text-xl">GOVERNMENT OF CANADA</h1>
           <h1 class="text-sm">DEPARTMENT OF NATIONAL DEFENSE</h1>
           <h1 class="text-lg"></h1>
         </div>
         <div class="text-md text-white pt-10">
-          <h1>Designed a waste liquid disposal system.</h1>
-          <h1>Created specifications for building upgrades.</h1>
-          <h1>Conducted research on renewable energy.</h1>
-          <h1>Managed a solar farm project.</h1>
-          <h1>Conducted cost analysis on various projects.</h1>
+          <h1 class="left-2018-a">Designed a waste liquid disposal system.</h1>
+          <h1 class="left-2018-b">Created specifications for building upgrades.</h1>
+          <h1 class="left-2018-c">Conducted research on renewable energy.</h1>
+          <h1 class="left-2018-d">Managed a solar farm project.</h1>
+          <h1 class="left-2018-e">Conducted cost analysis on various projects.</h1>
         </div>
       </div>
     </div>
@@ -183,18 +183,18 @@
     >
       <div class="aboslute bg-black opacity-60" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500">Worked at</h1>
-        <div class="text-white tracking-widest">
+        <h1 class="text-cusblue-500 top-2019-a">Worked at</h1>
+        <div class="text-white tracking-widest top-2019-b">
           <h1 class="font-bold text-xl">SYNCRUDE CANADA</h1>
           <h1 class="text-sm">DEPARTMENT OF UTILITIES AND OFFSITE</h1>
           <h1 class="text-lg"></h1>
         </div>
         <div class="text-md text-white pt-10">
-          <h1>Determined the root cause for machinery failure.</h1>
-          <h1>Provided field support and onsite troubleshooting</h1>
-          <h1>Created engineering packages for filter replacement</h1>
-          <h1>Conducted vibration and oil sample tests for equipments</h1>
-          <h1>Recommend changes to prevent future machinery failures</h1>
+          <h1 class="left-2019-a">Determined the root cause for machinery failure.</h1>
+          <h1 class="left-2019-b">Provided field support and onsite troubleshooting</h1>
+          <h1 class="left-2019-c">Created engineering packages for filter replacement</h1>
+          <h1 class="left-2019-d">Conducted vibration and oil sample tests for equipments</h1>
+          <h1 class="left-2019-e">Recommend changes to prevent future machinery failures</h1>
         </div>
       </div>
     </div>
@@ -207,22 +207,22 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <div class="text-xl font-bold text-white tracking-widest">
+        <div class="text-xl font-bold text-white tracking-widest top-2020-a">
           <h1>GRADUATED 2020</h1>
           <h1>WHAT I LEARNED</h1>
         </div>
         <div class="sm:text-md text-xs text-white tracking-widest pt-10">
-            <h1>MATLAB</h1>
-            <h1>SOLIDWORKS</h1>
-            <h1>HEAT TRANSFER</h1>
-            <h1>FLUID MECHANICS</h1>
-            <h1>NUMERICAL METHODS</h1>
-            <h1>VIBRATIONS AND SOUND</h1>
-            <h1>STRENGTH OF MATERIALS</h1>
-            <h1>FINITE ELEMENT ANALYSIS</h1>
-            <h1>MECHANICS OF MACHINES</h1>
-            <h1>ADVANCE BOUNDARY VALUE</h1>
-            <h1>MECHANICAL MEASUREMENTS</h1>
+            <h1 class="left-2020-a">MATLAB</h1>
+            <h1 class="left-2020-b">SOLIDWORKS</h1>
+            <h1 class="left-2020-c">HEAT TRANSFER</h1>
+            <h1 class="left-2020-d">FLUID MECHANICS</h1>
+            <h1 class="left-2020-e">NUMERICAL METHODS</h1>
+            <h1 class="left-2020-f">VIBRATIONS AND SOUND</h1>
+            <h1 class="left-2020-g">STRENGTH OF MATERIALS</h1>
+            <h1 class="left-2020-h">FINITE ELEMENT ANALYSIS</h1>
+            <h1 class="left-2020-i">MECHANICS OF MACHINES</h1>
+            <h1 class="left-2020-j">ADVANCE BOUNDARY VALUE</h1>
+            <h1 class="left-2020-k">MECHANICAL MEASUREMENTS</h1>
             <!-- <h1>THERMO-FLUID SYSTEM DESIGN</h1>
             <h1>SAFETY AND RISK MANAGEMENT </h1>
             <h1>FEEDBACK CONTROL DESIGN DYNAMIC SYSTEMS</h1> -->
@@ -238,13 +238,13 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <div class="text-xl tracking-widest text-white ">
+        <div class="text-xl tracking-widest text-white top-2021-a">
           <h1>STARTED MANY PERSONAL PROJECTS</h1>
         </div>
         <div class="text-md text-white pt-10">
-          <h1>I learned AutoCAD and created floor plan, HVAC, and plumbing drawings</h1>
-          <h1>I wrote programs using Python for data analysis and  web-scrapping</h1>
-          <h1>I learned HTML, CSS, JavaScript, Vue.js, Django, and SQL for web design</h1>
+          <h1 class="left-2021-a">I learned AutoCAD and created floor plan, HVAC, and plumbing drawings</h1>
+          <h1 class="left-2021-b">I wrote programs using Python for data analysis and  web-scrapping</h1>
+          <h1 class="left-2021-c">I learned HTML, CSS, JavaScript, Vue.js, Django, and SQL for web design</h1>
         </div>
       </div>
     </div>
@@ -259,8 +259,11 @@
 </template>
 
 <script>
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger"
 import $ from "jquery";
 import {mapGetters, mapActions} from "vuex";
+gsap.registerPlugin(ScrollTrigger);
 export default {
   data(){
     return{
@@ -286,6 +289,71 @@ export default {
         }
       }
     },100)
+    this.fromTop('.top-2013-a')
+    this.fromLeft('.left-2013-a')
+    this.fromLeft('.left-2013-b')
+    this.fromLeft('.left-2013-c')
+    this.fromLeft('.left-2013-d')
+
+    this.fromTop('.top-2014-a')
+    this.fromLeft('.left-2014-a')
+
+    this.fromTop('.top-2015-a')
+    this.fromLeft('.left-2015-a')
+    this.fromLeft('.left-2015-b')
+    this.fromLeft('.left-2015-c')
+
+    this.fromTop('.top-2016-a')
+    this.fromLeft('.left-2016-a')
+    this.fromLeft('.left-2016-b')
+    this.fromLeft('.left-2016-c')
+    this.fromLeft('.left-2016-d')
+    this.fromLeft('.left-2016-e')
+    this.fromLeft('.left-2016-f')
+    this.fromLeft('.left-2016-g')
+    this.fromLeft('.left-2016-h')
+    this.fromLeft('.left-2016-i')
+    this.fromLeft('.left-2016-j')
+
+    this.fromTop('.top-2017-a')
+    this.fromTop('.top-2017-b')
+    this.fromLeft('.left-2017-a')
+    this.fromLeft('.left-2017-b')
+    this.fromLeft('.left-2017-c')
+
+    this.fromTop('.top-2018-a')
+    this.fromTop('.top-2018-b')
+    this.fromLeft('.left-2018-a')
+    this.fromLeft('.left-2018-b')
+    this.fromLeft('.left-2018-c')
+    this.fromLeft('.left-2018-d')
+    this.fromLeft('.left-2018-e')
+
+    this.fromTop('.top-2019-a')
+    this.fromTop('.top-2019-b')
+    this.fromLeft('.left-2019-a')
+    this.fromLeft('.left-2019-b')
+    this.fromLeft('.left-2019-c')
+    this.fromLeft('.left-2019-d')
+    this.fromLeft('.left-2019-e')
+
+    this.fromTop('.top-2020-a')
+    this.fromLeft('.left-2020-a')
+    this.fromLeft('.left-2020-b')
+    this.fromLeft('.left-2020-c')
+    this.fromLeft('.left-2020-d')
+    this.fromLeft('.left-2020-e')
+    this.fromLeft('.left-2020-f')
+    this.fromLeft('.left-2020-g')
+    this.fromLeft('.left-2020-h')
+    this.fromLeft('.left-2020-i')
+    this.fromLeft('.left-2020-j')
+    this.fromLeft('.left-2020-k')
+
+    this.fromTop('.top-2021-a')
+    this.fromLeft('.left-2021-a')
+    this.fromLeft('.left-2021-b')
+    this.fromLeft('.left-2021-c')
   },
   unmounted(){
     window.removeEventListener('scroll',this.changeColor);
@@ -304,6 +372,35 @@ export default {
         }
       }
     },
+    fromTop: (el) => {
+      gsap.from(el, {
+        scrollTrigger: {
+          trigger: el,
+          start: "0 80%",
+          end: "+=600",
+          toggleActions: "play none none none",
+        },
+        duration: 0.5,
+        yPercent:-50,
+        opacity:0,
+      })    
+    },
+    fromLeft: (el) => {
+      gsap.from(el, {
+        scrollTrigger: {
+          trigger: el,
+          start: "0 80%",
+          end: "+=600",
+          toggleActions: "play none none none",
+        },
+        duration:0.5,
+        xPercent:-50,
+        opacity:0,
+      })    
+    },
+
+
+
     ...mapActions(['changeSlide'])
   },
 

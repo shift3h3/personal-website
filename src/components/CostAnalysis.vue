@@ -35,8 +35,8 @@
   <!-- END data section -->
   <!-- chart -->
   <div class="relative bg-gray-200 shadow-2xl py-1 my-12 rounded-3xl" v-if="showChart">
-    <h1 class="text-3xl my-5 text-center">NPV and IRR Chart</h1>
-    <table class="mx-auto my-5 md:text-lg text-xs">
+    <h1 class="sm:text-3xl my-5 text-center">NPV and IRR Chart</h1>
+    <table class="mx-auto my-5 md:text-lg text-xs chart-font">
       <tr class="">
         <th class="sm:px-2">Period (t)</th>
         <th class="sm:px-2">Net cash flow (R)</th>

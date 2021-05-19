@@ -48,12 +48,12 @@
     <div id="project" class="h-32"></div>
     <!-- projects -->
     <!-- text -->
-    <h1 class="text-cusblue-500 md:text-center md:mx-5 mx-12">Mechanical Design and Programming</h1>
+    <h1 class="text-cusblue-500 text-center md:mx-5 mx-12">Mechanical Design and Programming</h1>
     <div class="grid md:grid-cols-2 text-white">
       <router-link to="/modeling">
         <div class="transition-all duration-500 hover:text-blue-200 cursor-pointer">
-          <h1 class="md:text-right sm:text-7xl text-3xl font-bold md:mx-5 mx-12">DESIGN</h1>
-          <h1 class="md:text-right sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in designContent" :key="content">
+          <h1 class="md:text-right text-center sm:text-7xl text-4xl font-bold md:mx-5 mx-12">DESIGN</h1>
+          <h1 class="md:text-right text-center sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in designContent" :key="content">
             {{content.title}}
           </h1>
           <div class="pt-12 md:text-right md:ml-12 md:mr-5 mx-12" v-for="content in designContent" :key="content">
@@ -64,8 +64,8 @@
       </router-link>
       <router-link to="programming">
         <div class="md:mt-0 mt-12 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
-          <h1 class="text-left sm:text-7xl text-3xl font-bold md:mx-5 mx-12">CODING</h1>
-          <h1 class="text-left sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
+          <h1 class="md:text-left sm:text-7xl text-center text-4xl font-bold md:mx-5 mx-12">CODING</h1>
+          <h1 class="md:text-left text-center sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
             {{content.title}}
           </h1>
           <div class="pt-12 text-left md:mr-12 md:ml-5 mx-12" v-for="content in codeContent" :key="content">
