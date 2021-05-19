@@ -47,7 +47,6 @@
                     :to="item.to"
                     class="block text-black font-bold hover:text-cusblue-400 py-2 mx-10 rounded-3xl transition-transform duration-200 transform hover:scale-110"
                     :class="{'text-cusblue-500': $route.path === item.to}"
-                    @click="revealNavbar === false"
                 >
                     {{ item.title }}
                 </router-link>
