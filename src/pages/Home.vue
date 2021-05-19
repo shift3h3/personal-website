@@ -185,7 +185,7 @@ export default {
           heading: 'INTERESTS',
           picture: "abstract4",
           texts: [
-            "I often snowboard in the mountains, I frequently climb, either bouldering or top roping, and I enjoy playing badminton leisurely and competitively ",
+            "I often snowboard in the mountains, I frequently climb either bouldering or top roping, and I enjoy playing badminton leisurely and competitively ",
             "Overall, I enjoy working out and maintaining an active and healthy lifestyle; I am always open to trying new things.",
             "I maintain, fix, and take apart my motorcycle for fun",
           ]
@@ -194,29 +194,29 @@ export default {
       designContent:[
         {
           title:"AUTOCAD",
-          text: "I used AutoCAD to design a few building upgrade project during my work term at Government of Canada. One project involves designing to piping system for a waste liquid disposal system. The second project is designing the electrical lines for an emergency stop button for a fueling station. I became interested in the software, so I decided to take an online course to farther my skills. I designed the floor plan for a sport facility using AutoCAD as a personal project. Along with the floor plan, I designed HVAC and plumbing system using AutoCAD."
+          text: "I used AutoCAD to design a few building upgrade projects during my work term at Government of Canada. One of the projects involves designing a piping system for a waste liquid disposal system. The second project is designing electrical lines for an emergency stop button for a fueling station. I became interested in the software, so I decided to take an online course to improve my skills. I designed a floor plan for a sport facility using AutoCAD as a personal project. Along with the floor plan, I designed HVAC and plumbing system using AutoCAD."
         },
         {
           title:"STAR-CCM",
-          text: "Star-CCM is a Finite Element Analysis (FEA) program. I learned to use Star-CCM during a university course where it went indepth about the theory behind FEA. I understand the best way to optimize the simulation, the best mesh to use for different situations, and different techniques to simulate different fluids flowing through unique circumstances. I learned how to model laminar and turbulent flow for liquids and air."
+          text: "Star-CCM is a Finite Element Analysis (FEA) program. I learned to use Star-CCM during a university course where it went indepth about the theory behind FEA. In the course, I understand the best way to optimize the simulation, the best mesh to use for different situations, different techniques to simulate different fluids flowing through unique circumstances, and how to model laminar and turbulent flow for liquids and air."
         },
         {
           title:"SOLIDWORKS",
-          text: "I learned SolidWorks in University where I took a course dedicated to the subject. The course teaches all the necessary tools for designing parts and assemblies. The course also introduced best practice for drawings and annotation. I also used SolidWorks for FEA. During a University competition, my team designed a remote control vehicle using Solidworks. The parts and assembly drawings are made from Solidworks. We used the drawings to manufacture the vehicle which ultimately won the first place prize for the competition. I used SolidWorks in future projects such as designing a pasta maker and wheelchair ergometer for a research group at U of A."
+          text: "I learned SolidWorks at the University of Alberta (U of A) where I took a course dedicated to the subject. The course teaches all the necessary tools for designing parts and assemblies and introduced best practice for drawings and annotations. I have used SolidWorks for FEA and for a University competition; my team designed a remote control vehicle using Solidworks. The parts and assembly drawings were made from Solidworks. We used the drawings to manufacture the vehicle which ultimately won the first place prize for the competition. I used SolidWorks in future projects such as designing a pasta maker and wheelchair ergometer for a research group at U of A."
         },
       ],
       codeContent:[
         {
           title:"MATLAB",
-          text: "MATLAB was one of the first languages I was introduced too, which made in interested in programming as a whole. In school we learned how to use MATLAB extensively in one of the classes. I learned how to develop algorithms to solve solid mechanics, heat transfer, and fluid flow problems. I also Solved math problems including linear and non-linear systems, regression, integration and differentiation, interpolation, and ordinary differential equations. For personal use, I often use MATLAB for math heavy calculations that requires an iterative approach."
+          text: "MATLAB was one of the first languages I was introduced to, which made me interested in programming as a whole. In school I learned how to use MATLAB extensively in one of my classes. I learned how to develop algorithms to solve solid mechanics, heat transfer, and fluid flow problems. I also solved math problems including linear and non-linear systems, regression, integration and differentiation, interpolation, and ordinary differential equations. For personal use, I often use MATLAB for math heavy calculations that requires an iterative approach."
         },
         {
           title:"PYTHON",
-          text: "Python is the first programming language that I became comfortable with. taught myself Python during my studies as a Mechanical Engineer. Over the years my skills in Python has developed dramatically. Some my skills include using Python for webscrapping, where I retrieve data from multiple webpages for data analysis. One example of websrapping is that i built a script that retrieve keyword searches from a website. I also scrapped Indeed to collect data on the jobs that i am interested in. I used Python's Panda package to conduct data analysis. I also used Python's Django web framework to design a blog website. I can also use python to write scripts to conduct engineering calculations. For example I designed a script that sizes HVAC ducts, pipes, and pump."
+          text: "Python is the first programming language that I became comfortable with. I taught myself Python during my studies as a mechanical engineer. Over the years my skills in Python has developed dramatically. Some of my skills include using Python for webscrapping, which is retrieving data from multiple webpages for data analysis. One example of websrapping is that I built a script that retrieves keyword searches from a website. I used the script I made to scrape Indeed (an employment website for job listings) to collect data on the jobs that I am interested in. I used Python's panda package to conduct data analysis. I also used Python's Django web framework to design a blog website. I can also use python to write scripts to conduct engineering calculations. For example, I designed a script that sizes HVAC ducts, pipes, and pump."
         },
         {
           title:"JAVASCRIPT",
-          text: "I learned JavaScript for the purpose of web design. I also want to use web browsers as an interface for the other scripts that I wrote. I learned node.js, Vue web framework, and Express for backend coding. This website is designed fully by myself with Vue. I use JavaScript in conjunction with HTML and CSS to create responsive websites. If you are interested in creating a website, I can help with that."
+          text: "I learned JavaScript for the purpose of web design. I also want to use web browsers as an interface for the other scripts that I wrote. I learned Node.JS, Vue web framework, and Express for backend coding. This website is designed fully by myself with Vue. I use JavaScript in conjunction with HTML and CSS to create responsive websites. If you are interested in creating a website or having a website, I can help with that."
         },
       ],
     };
