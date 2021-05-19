@@ -22,7 +22,7 @@
             MH
         </router-link>
         <div @click="reveal" class="relative float-right mr-24 my-1">
-            <Burger />
+            <Burger :data-burgar="revealNavbar"/>
         </div>
     </nav>
     <!-- END full width navbar -->
@@ -40,7 +40,7 @@
                     'mt-6':scrollPosition === 0
                     }"
         >
-            <div class="text-center text-2xl">
+            <div class="text-center text-2xl" @click="reveal">
                 <router-link 
                     v-for="item in allLinks" 
                     :key="item.to" 
@@ -72,19 +72,17 @@ export default {
     methods : {
         // reveal drop down
         reveal(){
-            if (this.revealNavbar === true){
-                this.revealNavbar = false
-            } else{
-                this.revealNavbar = true
-            }
+            this.revealNavbar = !this.revealNavbar
         },
+        // closeNavbar(){
+        //     this.revealNavbar = false
+        // },
         ...mapActions(['updateScroll'])
     },
     mounted() {
         // listen for scroll and update scrollPosition
         window.addEventListener('scroll',this.updateScroll)
     },
-
     components: {Burger}
 }
 </script>

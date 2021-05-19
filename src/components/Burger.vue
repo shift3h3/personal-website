@@ -1,7 +1,7 @@
 <template>
 <div 
     class="menu-btn mt-1" 
-    :class="{'open':isOpen}"
+    :class="{'open':!dataBurgar}"
     @click="menuOpen"
 >
     <div class="menu-btn__burger"></div>
@@ -10,6 +10,7 @@
 
 <script>
 export default {
+    props: ['dataBurgar'],
     data(){
         return{
             isOpen: false,
