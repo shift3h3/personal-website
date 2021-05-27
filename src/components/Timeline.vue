@@ -6,8 +6,8 @@
       <h1 
         v-for="(year,index) in years" :key="year"
         @click="changeSlide(index)" 
-        :class="{'text-cusblue-500 transtition-all transform scale-125':index===reveal}"
-        class="inline cursor-pointer hover:text-cusblue-300"
+        :class="{'text-bondi-blue-500 transtition-all transform scale-125':index===reveal}"
+        class="inline cursor-pointer hover:text-bondi-blue-300"
       >
         {{year}}
       </h1>
@@ -32,7 +32,7 @@
               <h1>UNIVERSITY</h1>
               <h1>OF ALBERTA</h1>
             </div>
-            <div class="pl-4 text-lg text-cusblue-500 font-medium">
+            <div class="pl-4 text-lg text-bondi-blue-500 font-medium">
               <h1>Faculty of Science</h1>
               <h1>BCs in Honors</h1>
               <h1>Neurosciences</h1>
@@ -105,8 +105,8 @@
           style="transform:translate(-50%,-50%);"
         >
         <h1 class="text-4xl text-center m-5">I DISCOVERED MY PASSSION FOR ENGINEERING AND COMPUTER SCIENCE</h1>
-          <div class=" grid grid-cols-2 text-cusblue-500">
-            <h1 class="text-lg text-right px-5 border-r-2 border-cusblue-500">I taught myself how to program</h1>
+          <div class=" grid grid-cols-2 text-bondi-blue-500">
+            <h1 class="text-lg text-right px-5 border-r-2 border-bondi-blue-500">I taught myself how to program</h1>
             <h1 class="text-lg text-left px-5">Pursued a degree in Engineering.</h1>
           </div>
         </div>
@@ -123,7 +123,7 @@
           class="absolute text-white w-full px-12 top-1/2 left-1/2" 
           style="transform:translate(-50%,-50%);"
         >
-        <h1 class="text-xl text-center m-5 text-cusblue-500">SWITCH TO...</h1>
+        <h1 class="text-xl text-center m-5 text-bondi-blue-500">SWITCH TO...</h1>
         <h1 class="text-4xl text-center">BACHELOR OF SCIENCE IN MECHANICAL ENGINEERING</h1>
         <h1 class="text-4xl text-center">FACULTY OF ENGINEERING</h1>
         </div>
@@ -172,8 +172,8 @@
             <div class="text-right text-3xl px-5 tracking-widest">
               <h1 class="font-bold">WORKED AT</h1>
               <h1 class="font-bold">UNIVERSITY OF ALBERTA</h1>
-              <h1 class="text-xl text-cusblue-500">DEPARTMENT OF</h1>
-              <h1 class="text-xl text-cusblue-500">ENVIRONMENT, HEALTH, AND SAFETY</h1>
+              <h1 class="text-xl text-bondi-blue-500">DEPARTMENT OF</h1>
+              <h1 class="text-xl text-bondi-blue-500">ENVIRONMENT, HEALTH, AND SAFETY</h1>
             </div>
             <div class="text-xl px-5">
               <h1>Inspected machinery equipment in laboratories.</h1>
@@ -206,8 +206,8 @@
             <div class="text-3xl px-5 tracking-widest">
               <h1 class="font-bold">WORKED AT</h1>
               <h1 class="font-bold">GOVERNMENT OF CANADA</h1>
-              <h1 class="text-xl text-cusblue-500">DEPARTMENT OF</h1>
-              <h1 class="text-xl text-cusblue-500">NATIONAL DEFENSE</h1>
+              <h1 class="text-xl text-bondi-blue-500">DEPARTMENT OF</h1>
+              <h1 class="text-xl text-bondi-blue-500">NATIONAL DEFENSE</h1>
             </div>
           </div>
         </div>
@@ -228,8 +228,8 @@
             <div class="text-3xl text-right px-5 tracking-widest">
               <h1 class="font-bold">WORKED AT</h1>
               <h1 class="font-bold">SYNCRUDE CANADA LTD.</h1>
-              <h1 class="text-xl text-cusblue-500">DEPARTMENT OF</h1>
-              <h1 class="text-xl text-cusblue-500">UTILITIES AND OFF-SITE</h1>
+              <h1 class="text-xl text-bondi-blue-500">DEPARTMENT OF</h1>
+              <h1 class="text-xl text-bondi-blue-500">UTILITIES AND OFF-SITE</h1>
             </div>
             <div class="text-xl px-5">
               <h1>Determined the root cause for machinery failure.</h1>

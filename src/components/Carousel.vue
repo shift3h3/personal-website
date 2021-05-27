@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-4">
-    <div class="w-full h-screen relative overflow-x-hidden">
+  <div class="carousel-content mt-4">
+    <div class="w-full h-screen carousel-content relative overflow-x-hidden">
       <!-- main slide: picture, title, and text -->
       <div class="absolute w-full px-5" v-for="(slide, index) in sliders" :key="slide">
         <transition :name="direction">
@@ -10,7 +10,7 @@
             :class="slide.picture"
             style="height:95vh;"
           >
-            <div class="absolute top-1/2 left-1/2 w-full" style="transform:translate(-50%,-50%)">
+            <div class="relative top-1/2 left-1/2 w-full" style="transform:translate(-50%,-50%)">
               <div class="text-center text-white">
                 <a :href="slide.link">
                   <h1 class="sm:text-8xl text-5xl pb-2">{{slide.title}}</h1>
@@ -32,15 +32,15 @@
             :key="slider"
             @click="makeActive(index)"
             :class="currentSlide == index ? 'bg-gray-700' : 'bg-gray-300'"
-            class="w-4 h-4 mx-2 rounded-full cursor-pointer shadow-md z-20 hover:bg-cusblue-500"
+            class="w-4 h-4 mx-2 rounded-full cursor-pointer shadow-md z-20 hover:bg-bondi-blue-500"
           ></div>
         </div>
       </div>
       <!-- END slide indicator buttons -->
       <!-- slide next prev buttons -->
       <div class="absolute text-white  bottom-24 px-16 flex justify-between w-full z-10">
-        <button @click="prev" class="hover:text-cusblue-500"><i class="fas fa-chevron-left"></i></button>
-        <button @click="next" class="hover:text-cusblue-500"><i class="fas fa-chevron-right"></i></button>
+        <button @click="prev" class="hover:text-bondi-blue-500"><i class="fas fa-chevron-left"></i></button>
+        <button @click="next" class="hover:text-bondi-blue-500"><i class="fas fa-chevron-right"></i></button>
       </div>
       <!-- END slide next prev buttons -->
     </div> 

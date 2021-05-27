@@ -9,9 +9,9 @@
         <div class="relative top-1/2" style="transform:translateY(-50%)">
           <h1 
             v-for="(slide,index) in dataCarousel" :key="slide"
-            class="lg:py-5 py-1 cursor-pointer transition-all transform hover:scale-105 hover:text-cusblue-400 lg:hover:-translate-x-10" 
+            class="lg:py-5 py-1 cursor-pointer transition-all transform hover:scale-105 hover:text-bondi-blue-400 lg:hover:-translate-x-10" 
             @click="changeSlide(index)"
-            :class="{'text-cusblue-500': slideNumber === index}"
+            :class="{'text-bondi-blue-500': slideNumber === index}"
           >
             {{slide.heading}}
           </h1>

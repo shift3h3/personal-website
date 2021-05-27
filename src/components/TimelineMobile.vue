@@ -7,8 +7,8 @@
       <div 
         v-for="(year,index) in years" :key="year" 
         @click="changeSlide(index)" 
-        :class="{'text-cusblue-500 transition-all transform scale-125': color === index}"
-        class="my-2 cursor-pointer hover:text-cusblue-300"
+        :class="{'text-bondi-blue-500 transition-all transform scale-125': color === index}"
+        class="my-2 cursor-pointer hover:text-bondi-blue-300"
       >
         <a :href="'#'+year">{{year}}</a>
       </div>
@@ -23,7 +23,7 @@
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/4 ml-5 mr-20" style="">
         <div class="tracking-widest">
-          <h1 class="text-cusblue-500 text-md">Enrolled in</h1>
+          <h1 class="text-bondi-blue-500 text-md">Enrolled in</h1>
           <h1 class="font-bold text-xl text-white">UNIVERSITY OF ALBERTA</h1>
         </div>
         <div class="sm:text-lg text-sm text-white pt-5">
@@ -43,7 +43,7 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/4 ml-5 mr-20" style="">
-        <div class="text-md text-cusblue-500 top-2013-a">
+        <div class="text-md text-bondi-blue-500 top-2013-a">
           <h1>What I learned...</h1>
         </div>
         <div class="md:text-lg text-sm text-white w-10/12">
@@ -76,7 +76,7 @@
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
         <div class="text-white top-2014-a">
-          <h1 class="text-md text-cusblue-500">I discovered my passion for</h1>
+          <h1 class="text-md text-bondi-blue-500">I discovered my passion for</h1>
           <h1 class="text-xl">ENGINEERING AND COMPUTER SCIENCE</h1>
         </div>
         <div class="text-md text-white pt-5 left-2014-a">
@@ -94,7 +94,7 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500 top-2015-a">Enrolled in</h1>
+        <h1 class="text-bondi-blue-500 top-2015-a">Enrolled in</h1>
         <div class="text-xl text-white ">
           <h1 class="left-2015-a">BACHELOR OF SCIENCE IN</h1>
           <h1 class="left-2015-b">MECHANICAL ENGINEERING</h1>
@@ -137,7 +137,7 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500 top-2017-a">Worked at</h1>
+        <h1 class="text-bondi-blue-500 top-2017-a">Worked at</h1>
         <div class="text-white tracking-widest top-2017-b">
           <h1 class="font-bold text-xl">UNIVERSITY OF ALBERTA</h1>
           <h1 class="text-sm">DEPARTMENT OF ENVIRONMENT, HEALTH, AND SAFETY</h1>
@@ -159,7 +159,7 @@
     >
       <div class="aboslute bg-black opacity-50" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500 top-2018-a">Worked at</h1>
+        <h1 class="text-bondi-blue-500 top-2018-a">Worked at</h1>
         <div class="text-white tracking-widest top-2018-b">
           <h1 class="font-bold text-xl">GOVERNMENT OF CANADA</h1>
           <h1 class="text-sm">DEPARTMENT OF NATIONAL DEFENSE</h1>
@@ -183,7 +183,7 @@
     >
       <div class="aboslute bg-black opacity-60" style="height:100%"></div>
       <div class="absolute top-1/3 ml-5 mr-20" style="">
-        <h1 class="text-cusblue-500 top-2019-a">Worked at</h1>
+        <h1 class="text-bondi-blue-500 top-2019-a">Worked at</h1>
         <div class="text-white tracking-widest top-2019-b">
           <h1 class="font-bold text-xl">SYNCRUDE CANADA</h1>
           <h1 class="text-sm">DEPARTMENT OF UTILITIES AND OFFSITE</h1>

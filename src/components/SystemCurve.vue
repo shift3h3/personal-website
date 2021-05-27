@@ -12,10 +12,10 @@
       </div>
     </div>
     <div class="text-center">
-      <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
+      <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
     </div>    
     <div class="text-center my-5">
-      <button class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" type="submit" @click="calculate" @submit.prevent="calculate">Calculate</button>
+      <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" type="submit" @click="calculate" @submit.prevent="calculate">Calculate</button>
     </div>
   </div>
   <!-- END data section -->
@@ -30,7 +30,7 @@
       ytitle="Pump Head (ft)" 
       height="500px"
     ></line-chart>
-    <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="deleteTable()"><i class="fas fa-times"></i></button>
+    <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="deleteTable()"><i class="fas fa-times"></i></button>
   </div>
   <h1 class="text-3xl my-5 text-center" v-if="displayChart">Pump head at {{flowRate}} (gpm): {{pumpHeadData.toFixed(2)}} (ft)</h1>
   <!-- END chart section -->

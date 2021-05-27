@@ -1,6 +1,6 @@
 <template>
 <!-- first main container -->
-<div class="pb-48">
+<div class="md:pb-48">
   <!-- white -->
   <div 
     class="mx-auto bg-gradient-to-b from-white via-gray-300 to-white" 
@@ -28,16 +28,16 @@
 </div>
 <!-- END first main container -->
 <!-- second main container -->
-<div class="bg-black py-48">
+<div class="bg-black md:py-48 py-0">
   <!-- black -->
   <div 
     class="mx-auto bg-gradient-to-b from-black via-gray-900 to-black"
   >
     <!-- experiences -->
-    <div id="career" class="h-32"></div>
+    <div id="career" class="md:h-32 h-24"></div>
     <div>
       <div class="text-center text-white pt-16 ">
-        <h1 class="text-cusblue-500">Career and Professional Work</h1>
+        <h1 class="text-bondi-blue-500">Career and Professional Work</h1>
         <h1 class="sm:text-7xl text-4xl mx-auto mb-20">EXPERIENCES</h1>
       </div>
       <div class="overflow-x-hidden">
@@ -48,7 +48,7 @@
     <div id="project" class="h-32"></div>
     <!-- projects -->
     <!-- text -->
-    <h1 class="text-cusblue-500 text-center md:mx-5 mx-12">Mechanical Design and Programming</h1>
+    <h1 class="text-bondi-blue-500 text-center md:mx-5 mx-12">Design and Programming</h1>
     <div class="grid md:grid-cols-2 text-white">
       <router-link to="/modeling">
         <div class="transition-all duration-500 hover:text-blue-200 cursor-pointer">
@@ -56,21 +56,21 @@
           <h1 class="md:text-right text-center sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in designContent" :key="content">
             {{content.title}}
           </h1>
-          <div class="pt-12 md:text-right md:ml-12 md:mr-5 mx-12" v-for="content in designContent" :key="content">
-            <h1 class="sm:text-2xl text-xl font-bold">{{content.title}}</h1>
-            <p class="text-lg md:text-justify">{{content.text}}</p>
+          <div class="pt-12 md:text-center md:ml-12 md:mr-5 mx-12" v-for="content in designContent" :key="content">
+            <h1 class="sm:text-2xl text-xl font-bold md:text-right text-center">{{content.title}}</h1>
+            <p v-for="sentence in content.text" :key="sentence" class="text-lg md:text-right text-center">{{sentence}}</p>
           </div>
         </div>
       </router-link>
       <router-link to="programming">
-        <div class="md:mt-0 mt-12 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
+        <div class="md:mt-0 mt-12 mb-24 md:border-l-2 md:border-white transition-all duration-500 hover:text-red-200 cursor-pointer">
           <h1 class="md:text-left sm:text-7xl text-center text-4xl font-bold md:mx-5 mx-12">CODING</h1>
           <h1 class="md:text-left text-center sm:text-5xl text-2xl md:mx-5 mx-12" v-for="content in codeContent" :key="content">
             {{content.title}}
           </h1>
-          <div class="pt-12 text-left md:mr-12 md:ml-5 mx-12" v-for="content in codeContent" :key="content">
-            <h1 class="sm:text-2xl text-xl font-bold">{{content.title}}</h1>
-            <p class="text-lg md:text-justify">{{content.text}}</p>
+          <div class="pt-12 md:text-center md:mr-12 md:ml-5 mx-12" v-for="content in codeContent" :key="content">
+            <h1 class="sm:text-2xl md:text-left text-center text-xl font-bold">{{content.title}}</h1>
+            <p v-for="sentence in content.text" :key="sentence" class="text-lg md:text-left text-center">{{sentence}}</p>
           </div>
         </div>
       </router-link>
@@ -105,8 +105,8 @@ export default {
       textAbout:{
         headings: ['MECHANICAL', 'ENGINEER', 'IN TRAINING'],
         texts: [
-          "I am a diligent and hardworking individual who is looking to apply my knowledge and skills towards working in a team to deliver noteworthy and innovative programming and engineering services. This website is fully coded by myself with HTML, CSS, and Javascript. The front-end framework used is Vue.js.",
-          "With the world becoming more technologically reliant, I want to apply my mechanical engineering and programming knowledge and skills in designing reliable products and implementing automation for design processes. Feel free to view the programming and modeling projects showcased on this website.",
+          "Hi there! I’m Michael He, an EIT who graduated from University of Alberta",
+          "I’m continually learning and always excited to apply my degree in mechanical engineering to solve real world problems. This is my personal website, where I showcase my engineering knowledge as well as programming experience. This website was made using html/css/js, using vue.js.",
         ]
 
       },
@@ -137,30 +137,9 @@ export default {
         },
         
       ],
-      cardProjects: {
-        mainHeading: "DESIGN",
-        textHeading: "HIGHLIGHTS",
-        picture:"projects",
-        texts: [
-          {
-            textContent: "project project project test my name is Michael as it said on the titled. if you are reading this it must mean i told you to come look at it and show you what im about, so here i will give you a brief description of who i am and i hope you will hire me to some jobs"
-          },
-          {
-            textContent: "project project project test i will display so that you can tell if something is good or not mainly the purpose of this paragraph is to determine how much space i have to work with before it looks weird."
-          }
-        ]
-      },
       carouselContents: [
         {
           show: 0,
-          heading:"INTRODUCTION",
-          picture: "abstract1",
-          texts: [
-            "My name is Michael He, I am currently a Mechanical Engineer in Training. I have experience working for the private and public sectors. I worked for Syncrude Canada Ltd., where I inspected rotatary equipment and conducted loss investigations. I also worked for the Government of Canada as a researcher for green energy alternatives and a project coordinator.",
-          ]
-        },
-        {
-          show: 1,
           heading: "EDUCATION",
           picture: "abstract2",
           texts: [
@@ -169,7 +148,7 @@ export default {
           ]
         },
         {
-          show: 2,
+          show: 1,
           heading: "VOLUNTEERING",
           picture: "abstract3",
           texts: [
@@ -181,7 +160,7 @@ export default {
           ]
         },
         {
-          show: 3,
+          show: 2,
           heading: 'INTERESTS',
           picture: "abstract4",
           texts: [
@@ -194,29 +173,55 @@ export default {
       designContent:[
         {
           title:"AUTOCAD",
-          text: "I used AutoCAD to design a few building upgrade projects during my work term at Government of Canada. One of the projects involves designing a piping system for a waste liquid disposal system. The second project is designing electrical lines for an emergency stop button for a fueling station. I became interested in the software, so I decided to take an online course to improve my skills. I designed a floor plan for a sport facility using AutoCAD as a personal project. Along with the floor plan, I designed HVAC and plumbing system using AutoCAD."
+          text: [
+            "Created building upgrade projects.",
+            "Designed a waste liquid disposal system.",
+            "Created a floor plan for a sport facility", 
+            "designed HVAC and plumbing system using AutoCAD.",
+            "Designed electrical lines system for an emergency stop button",
+          ]
         },
         {
           title:"STAR-CCM",
-          text: "Star-CCM is a Finite Element Analysis (FEA) program. I learned to use Star-CCM during a university course where it went indepth about the theory behind FEA. In the course, I understand the best way to optimize the simulation, the best mesh to use for different situations, different techniques to simulate different fluids flowing through unique circumstances, and how to model laminar and turbulent flow for liquids and air."
+          text: [
+            "optimized the simulation to reduce computation time.", 
+            "Modeled laminar and turbulent flow for liquids and air.",
+          ]
         },
         {
           title:"SOLIDWORKS",
-          text: "I learned SolidWorks at the University of Alberta (U of A) where I took a course dedicated to the subject. The course teaches all the necessary tools for designing parts and assemblies and introduced best practice for drawings and annotations. I have used SolidWorks for FEA and for a University competition; my team designed a remote control vehicle using Solidworks. The parts and assembly drawings were made from Solidworks. We used the drawings to manufacture the vehicle which ultimately won the first place prize for the competition. I used SolidWorks in future projects such as designing a pasta maker and wheelchair ergometer for a research group at U of A."
+          text: [
+            "Perform Finite Element Analysis",
+            "Design a remote-controlled vehicle for case competitions which was awarded first place.",
+            "Design different assemblies as needed such as a wheelchair ergometer for university research groups",
+
+          ]
         },
       ],
       codeContent:[
         {
-          title:"MATLAB",
-          text: "MATLAB was one of the first languages I was introduced to, which made me interested in programming as a whole. In school I learned how to use MATLAB extensively in one of my classes. I learned how to develop algorithms to solve solid mechanics, heat transfer, and fluid flow problems. I also solved math problems including linear and non-linear systems, regression, integration and differentiation, interpolation, and ordinary differential equations. For personal use, I often use MATLAB for math heavy calculations that requires an iterative approach."
-        },
-        {
           title:"PYTHON",
-          text: "Python is the first programming language that I became comfortable with. I taught myself Python during my studies as a mechanical engineer. Over the years my skills in Python has developed dramatically. Some of my skills include using Python for webscrapping, which is retrieving data from multiple webpages for data analysis. One example of websrapping is that I built a script that retrieves keyword searches from a website. I used the script I made to scrape Indeed (an employment website for job listings) to collect data on the jobs that I am interested in. I used Python's panda package to conduct data analysis. I also used Python's Django web framework to design a blog website. I can also use python to write scripts to conduct engineering calculations. For example, I designed a script that sizes HVAC ducts, pipes, and pump."
+          text: [
+            "Web scraping/data collection ",
+            "Conducted data analysis",
+            "Blog design using Django",
+            "HVAC and pipe sizing calculation scripts",
+          ]
         },
         {
           title:"JAVASCRIPT",
-          text: "I learned JavaScript for the purpose of web design. I also want to use web browsers as an interface for the other scripts that I wrote. I learned Node.JS, Vue web framework, and Express for backend coding. This website is designed fully by myself with Vue. I use JavaScript in conjunction with HTML and CSS to create responsive websites. If you are interested in creating a website or having a website, I can help with that."
+          text: [
+            "Experienced with Node.JS", 
+            "Used Vue.js for front end web development.",
+            "Used Express for back end web development.",
+          ]
+        },
+        {
+          title:"MATLAB",
+          text: [
+            "Developed algorithms to solve solid mechanics, heat transfer, and fluid flow problems.",
+            "Solved math problems including linear and non-linear systems, regression, integration and differentiation, interpolation, and ordinary differential equations.",
+            "Used MATLAB for math heavy calculations that requires an iterative approach."]
         },
       ],
     };

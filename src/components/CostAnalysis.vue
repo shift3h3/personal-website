@@ -16,7 +16,7 @@
       <div class="fitting-form text-center" v-for="(period,index) in periods" :key="period">
         <div>
           <input class="w-28 rounded-md text-center" type="number" min="0" @onkeypress="isNumberKey(this, event);" v-model="period.cashFlow">
-          <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="deletePeriod(index)">Remove</button>
+          <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="deletePeriod(index)">Remove</button>
           <h1 class="mb-2">Period {{index + 1 }}</h1>
         </div>
       </div>
@@ -24,11 +24,11 @@
     <!-- END input area -->
     <!-- buttons -->
     <div class="text-center">
-      <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="addPeriod()">Add</button>
-      <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
+      <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="addPeriod()">Add</button>
+      <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
     </div>
     <div class="text-center my-5">
-      <button class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" type="submit" @click="calculate" @submit.prevent="calculate">Calculate</button>
+      <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" type="submit" @click="calculate" @submit.prevent="calculate">Calculate</button>
     </div>
     <!-- END buttons -->
   </div>
@@ -56,7 +56,7 @@
       <h1> <span class="font-bold">NPV at end of period:</span> ${{currentList[currentList.length-1].toFixed(2)}}</h1>
       <h1> <span class="font-bold">IRR at end of period:</span> {{IRRList[IRRList.length-1]}}%</h1>
     </div>
-    <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="deleteTable()"><i class="fas fa-times"></i></button>
+    <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="deleteTable()"><i class="fas fa-times"></i></button>
   </div>
   <!-- END chart -->
 </div>

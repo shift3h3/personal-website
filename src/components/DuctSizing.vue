@@ -60,27 +60,27 @@
           <option value="Tee branch">Tee branch</option>
           <option value="Tee through">Tee through</option>
         </select>
-        <button class="my-2 bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="deleteFitting(parent_index,child_index)">Remove</button>
+        <button class="my-2 bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="deleteFitting(parent_index,child_index)">Remove</button>
         <h1 class="mb-2">Fitting {{child_index + 1 }}: Quantity and Type </h1>
       </div>
     </div>
     <div class="text-center mb-4">
-      <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="addFitting(parent_index)">Add</button>
+      <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="addFitting(parent_index)">Add</button>
     </div>
     <!-- END section fitting -->
     <br>
     <!-- section exit button -->
-    <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="deleteSection(parent_index)"><i class="fas fa-times"></i></button>
+    <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="deleteSection(parent_index)"><i class="fas fa-times"></i></button>
     <!-- END section exit button -->
   </div>
   <!-- END section card -->
   <!-- section bottom buttons -->
   <div class="text-center">
-    <button class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
+    <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="clearEntry()">Clear</button>
   </div> 
   <div class="text-center mt-5">
-    <button class="my-1 bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="addSection">New Section</button>
-    <button class="my-1 bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" type="submit" @click="calculateAll" @submit.prevent="calculateAll">Calculate</button>
+    <button class="my-1 bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="addSection">New Section</button>
+    <button class="my-1 bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" type="submit" @click="calculateAll" @submit.prevent="calculateAll">Calculate</button>
   </div>
   <!-- END section bottom buttons -->
   <!-- charts -->
@@ -109,7 +109,7 @@
       <div class="text-center">
         <h1> <span class="font-bold">Total Pressure:</span> {{pBranch.toFixed(3)}}</h1>
       </div>
-      <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="deleteChart(0)"><i class="fas fa-times"></i></button>
+      <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="deleteChart(0)"><i class="fas fa-times"></i></button>
     </div>
     <!-- END rounded diameter -->
     <!-- actual diameter -->
@@ -136,7 +136,7 @@
       <div class="text-center">
         <h1> <span class="font-bold">Total Pressure:</span> {{pBranchActual.toFixed(3)}}</h1>
       </div>
-      <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="deleteChart(1)"><i class="fas fa-times"></i></button>
+      <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="deleteChart(1)"><i class="fas fa-times"></i></button>
     </div>
     <!-- END actual diameter -->
     <!-- square ducts -->
@@ -159,7 +159,7 @@
           <td>{{object.aspectR.toFixed(1)}}</td>
         </tr>
       </table>
-      <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="deleteChart(2)"><i class="fas fa-times"></i></button>
+      <button class="absolute right-0 top-0 text-3xl px-3 text-gray-400 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="deleteChart(2)"><i class="fas fa-times"></i></button>
     </div>
     <!-- END square ducts -->
   </div>

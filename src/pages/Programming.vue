@@ -10,7 +10,7 @@
       <h1 class="text-center text-4xl py-2">FINANCE</h1>
       <div class="text-center my-5">
         <button 
-          class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
+          class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
           style="border-radius: 75px;" 
           @click="openApp(0)"
         >
@@ -18,10 +18,7 @@
         </button>
       </div>
       <p class="text-xl">
-        I have worked on multiple projects relating to finance. I created an application to calculate mortgage prices, income taxes, web scrapping applications to retrieve data from the stock market etc. I can build these applications with Python or JavaScript.
-        <br>
-        <br>
-        One such application for calculating Net Present Value and Internal Rate of Return is showcased on this webpage. Please click the button below to access the application, along with the theory behind how it was created.
+        I created an application to calculate mortgage prices, income taxes, web scrapping applications to retrieve data from the stock market etc. One such application for calculating Net Present Value and Internal Rate of Return. 
       </p>
     </div>
     <!-- END finance card -->
@@ -30,7 +27,7 @@
       <h1 class="text-center text-4xl py-2">DUCT SIZING</h1>
       <div class="text-center my-5">
         <button 
-          class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
+          class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
           style="border-radius: 75px;" 
           @click="openApp(2)"
         >
@@ -38,10 +35,7 @@
         </button>
       </div>
       <p class="text-xl">
-        I created an application that is used to determine the diameter of air ducts for a HVAC system. I created this application to help me solve design problems for school projects. I later added features that allows the application to determine the equivalent square ducts, and calculate the pressure for each section. 
-        <br>
-        <br>
-        This application was originally designed using Python, but I decided to make a web browser version using JavaScript. 
+        I created an application that is used to determine the diameter of air ducts for a HVAC system. I later added features that allows the application to determine the equivalent square ducts, and calculate the pressure for each section. 
       </p>
     </div>
     <!-- END duct sizing card -->
@@ -50,7 +44,7 @@
       <h1 class="text-center text-4xl py-2">PUMP SYSTEM</h1>
       <div class="text-center my-5">
         <button 
-          class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
+          class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
           style="border-radius: 75px;" 
           @click="openApp(1)"
         >
@@ -58,10 +52,7 @@
         </button>
       </div>
       <p class="text-xl">
-        During my time working at Syncrude Canada Ltd., I was heavily involved in machinery equipments such as pumps, turbines, and motors. I decided to learn more about pump selection and how pumps works. I decided to create an application that generates pump system curves, which I can use for pump selection. 
-        <br>
-        <br>
-        This application uses the conservation of energy to determine the pump head at different flow rates. 
+        I decided to create an application that generates pump system curves, which I can use for pump selection. This application uses the conservation of energy to determine the pump head at different flow rates. 
       </p>
     </div>
     <!-- END pump system card -->
@@ -116,12 +107,12 @@
           <h1 class="text-center text-3xl font-bold">Branch {{index+1}}</h1>
           <DuctSizing />
         </div>
-        <button class="absolute top-0 right-0 text-3xl text-gray-400 px-3 transition-all duration-250 hover:text-cusblue-500 transform hover:scale-110" @click="removeComponent(index)"><i class="fas fa-times"></i></button>
+        <button class="absolute top-0 right-0 text-3xl text-gray-400 px-3 transition-all duration-250 hover:text-bondi-blue-500 transform hover:scale-110" @click="removeComponent(index)"><i class="fas fa-times"></i></button>
       </div>
     </div>
     <div class="text-center my-5">
       <button 
-        class="bg-cusblue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
+        class="bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" 
         style="border-radius: 75px; width:130px" 
         @click="addComponent"
       >
@@ -133,8 +124,8 @@
   <!-- END duct sizing -->
   <!-- next prev button -->
   <div class="flex pb-20 justify-between mx-12">
-    <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="prevApp"><i class="fas fa-chevron-left"></i> Prev</button>
-    <button class="bg-cusblue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-cusblue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="nextApp">Next <i class="fas fa-chevron-right"></i></button>
+    <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="prevApp"><i class="fas fa-chevron-left"></i> Prev</button>
+    <button class="bg-bondi-blue-400 text-gray-200 mx-2 p-1 w-20 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px" @click="nextApp">Next <i class="fas fa-chevron-right"></i></button>
   </div>
   <!-- END next prev button -->
 </div>

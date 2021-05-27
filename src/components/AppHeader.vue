@@ -5,7 +5,7 @@
         class="transition-all duration-500 text-white px-12 pt-3 pb-3 text-2xl rounded-3xl"
         :class="{
                 'opacity-100 bg-transparent bg-none pt-7 pb-3': scrollPosition === 0,
-                'bg-black mx-10 mt-2 rounded-3xl': scrollPosition!=0
+                'bg-black mx-9 mt-2 rounded-3xl': scrollPosition!=0
                 }"
         style="max-width:1600px;"
     >
@@ -21,8 +21,8 @@
                 v-show="index!=0"
                 :key="item.to" 
                 :to="item.to"
-                class="text-lg pt-1 tracking-widest mx-7 my-1 inline-block hover:text-cusblue-400 hover:font-bold transition-all duration-250 transform hover:scale-110"
-                :class="{'text-cusblue-500 text-2xl': $route.path === item.to}"
+                class="text-lg pt-1 tracking-widest mx-7 my-1 inline-block hover:text-bondi-blue-400 hover:font-bold transition-all duration-250 transform hover:scale-110"
+                :class="{'text-bondi-blue-500 text-2xl': $route.path === item.to}"
             >
                 {{ item.title }}
             </router-link>
