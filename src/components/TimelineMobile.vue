@@ -193,7 +193,7 @@
           <h1 class="left-2019-a">Determined the root cause for machinery failure.</h1>
           <h1 class="left-2019-b">Provided field support and onsite troubleshooting</h1>
           <h1 class="left-2019-c">Created engineering packages for filter replacement</h1>
-          <h1 class="left-2019-d">Conducted vibration and oil sample tests for equipments</h1>
+          <h1 class="left-2019-d">Conducted vibration and oil sample tests for equipment</h1>
           <h1 class="left-2019-e">Recommend changes to prevent future machinery failures</h1>
         </div>
       </div>

@@ -235,7 +235,7 @@
               <h1>Determined the root cause for machinery failure.</h1>
               <h1>Provided field support and onsite troubleshooting</h1>
               <h1>Created engineering packages for filter replacement</h1>
-              <h1>Conducted vibration and oil sample tests for equipments</h1>
+              <h1>Conducted vibration and oil sample tests for equipment</h1>
               <h1>Recommend changes to prevent future machinery failures</h1>
             </div>
           </div>

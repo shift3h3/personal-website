@@ -3,7 +3,7 @@
     <div class="sm:p-5 grid lg:grid-cols-2 text-gray-700">
       <!-- headings -->
       <div 
-        class="lg:text-right xl:text-7xl lg:text-6xl sm:text-5xl md:text-7xl text-3xl lg:bg-gradient-to-r from-transparent :to-white px-5"
+        class="lg:text-right xl:text-7xl lg:text-5xl sm:text-5xl md:text-7xl text-3xl lg:bg-gradient-to-r from-transparent :to-white px-5"
         style="border-radius: 0 0 0 35px;"
       >
         <div class="relative top-1/2" style="transform:translateY(-50%)">

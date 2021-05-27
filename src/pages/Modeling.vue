@@ -51,7 +51,7 @@ export default {
           {
             picture:require('../assets/images/b2.jpg'), 
             alternative:'overview', 
-            text:"The general layout of the  badmintion facility, featuring eight courts, a store, bathroom, change room, and kitchen.",
+            text:"The general layout of the  badminton facility, featuring eight courts, a store, bathroom, change room, and kitchen.",
           },
           {
             picture:require('../assets/images/b3.jpg'), 

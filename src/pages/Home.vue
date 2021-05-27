@@ -221,7 +221,8 @@ export default {
           text: [
             "Developed algorithms to solve solid mechanics, heat transfer, and fluid flow problems.",
             "Solved math problems including linear and non-linear systems, regression, integration and differentiation, interpolation, and ordinary differential equations.",
-            "Used MATLAB for math heavy calculations that requires an iterative approach."]
+            "Used MATLAB for math heavy calculations that requires an iterative approach."
+          ]
         },
       ],
     };

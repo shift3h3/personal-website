@@ -23,7 +23,7 @@
     <div class="transform sm:scale-100 scale-50">\[\frac{1}{\sqrt{f}}=-2 log\left(\frac{2.51}{Re\sqrt{f}}+\frac{e}{3.72d}\right)\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>By calculating the pump head with various flow rates, the pump system curve can be developed. The following application's performation decreases with large input value. To prevent decrease run time, the input field has an upper limit.</p>
+    <p>By calculating the pump head with various flow rates, the pump system curve can be developed. The following application's preformance decreases with large input value. To prevent decrease run time, the input field has an upper limit.</p>
   </div>
 </div>
 <!-- END theory -->

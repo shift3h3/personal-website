@@ -3,7 +3,7 @@
 <div class="pb-5 md:mx-40 mx-10">
   <h1 class="text-center text-4xl font-bold py-5">Theory</h1>
   <div class="text-xl py-3">
-    <p>Net present value (NPV) compare the present value of cash inflow and the value of cash outflow over a pertiod of time. The discount rate is the interest the company expect in return if the same amount of money is invested in other ventures. If the NPV is negative, it indicates the current project is not profitable and the project should not be started. </p>
+    <p>Net present value (NPV) compare the present value of cash inflow and the value of cash outflow over a period of time. The discount rate is the interest the company expect in return if the same amount of money is invested in other ventures. If the NPV is negative, it indicates the current project is not profitable and the project should not be started. </p>
     <p class="text-xl py-3 text-center">The formula to calculate NPV is shown below:</p>
     <div>\[NPV=\sum_{t=1}^n\frac{R_{t}}{(1+i)^t}\]</div>
   </div>

@@ -3,7 +3,7 @@
 <div class="pb-5 md:mx-40 mx-10">
   <h1 class="text-center text-4xl font-bold py-5">Theory</h1>
   <div class="text-xl py-3">
-    <p>This application is used to determine the diameter of circular or square air ducts. The pressure drop for each section is calculated. The application uses Colebrook-white equation to determine the friction factor, and incoporate Darcy-Weisbach equation to determine the diameter.</p>   
+    <p>This application is used to determine the diameter of circular or square air ducts. The pressure drop for each section is calculated. The application uses Colebrook-white equation to determine the friction factor, and incorporate Darcy-Weisbach equation to determine the diameter.</p>   
     <p class="text-xl py-3 text-center">The Darcy-Weisbach equation is shown below:</p>
     <div class="sm:text-xl text-sm">\[h_{L}=f\frac{1}{2g}\frac{v^2}{d}\]</div>
   </div>
@@ -18,12 +18,12 @@
     <div>\[v=\frac{2.4Q_{cfm}}{\pi(d/2)^2}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>The eqvuivalent square ducts can be calculated use the diameter of a circular duct. The equivalent square ducts are displayed in the order of precision to the diameter.</p>
+    <p>The equivalent square ducts can be calculated use the diameter of a circular duct. The equivalent square ducts are displayed in the order of precision to the diameter.</p>
     <p class="text-xl py-3 text-center">The formula to calculate equivalent square ducts is shown below:</p>
     <div>\[d_{e}=\frac{1.30a^{0.625}}{(a+b)^{0.25}}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>The pressure is used to determine the requirements for the diffusor. The additional pressure in the system from miscellaneous are incoporated into the pressure calculation.</p>
+    <p>The pressure is used to determine the requirements for the diffusor. The additional pressure in the system from miscellaneous are incorporated into the pressure calculation.</p>
     <p class="text-xl py-3 text-center">The formula to calculate pressure is shown below:</p>
     <div>\[P_{sec}=\frac{h_{L}l_{eq}}{100ft}+P_{added}\]</div>
   </div>
