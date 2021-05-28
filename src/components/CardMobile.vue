@@ -11,7 +11,7 @@
       <h1 class="text-center py-2">{{dataCardInfo.main.text}}</h1>
       <div class="text-center">
 
-        <button class="my-1 bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="revealPictures=!revealPictures">{{buttonTitle}}</button>
+        <button class="my-1 bg-bondi-blue-500 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-400 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="revealPictures=!revealPictures">{{buttonTitle}}</button>
       </div>
     </div>
     <transition name="cardDrop" mode="out-in">

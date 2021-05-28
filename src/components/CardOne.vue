@@ -6,14 +6,14 @@
           <h1 class="text-5xl text-center">{{dataCardInfo.main.heading}}</h1>
           <p class="text-center">{{dataCardInfo.main.text}}</p>
           <div class="text-center my-2">
-            <button class="my-1 bg-bondi-blue-400 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-500 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="revealPictures=!revealPictures">{{buttonTitle}}</button>
+            <button class="my-1 bg-bondi-blue-500 text-gray-200 mx-2 p-2 w-28 transition-all duration-250 hover:bg-bondi-blue-400 hover:text-white transform hover:scale-105 hover:shadow-2xl" style="border-radius: 75px; width:130px" @click="revealPictures=!revealPictures">{{buttonTitle}}</button>
           </div>
         </div>
       </div>
       <div class="col-span-4 bg-pickled-bluewood-500"></div>
     </div>
     <img 
-      class="absolute bg-gradient-to-l from-nepal-200 to-nepal-300 right-0 top-1/2 pic-dim"  
+      class="absolute bg-gradient-to-l from-nepal-200 to-nepal-300 right-0 top-1/2 pic-dim cursor-pointer"  
       style="transform:translateY(-50%)" 
       :src="dataCardInfo.main.picture" 
       @click="openModal(dataCardInfo.main.picture)"
@@ -22,7 +22,7 @@
   <transition name="cardDrop" mode="out-in">
     <div v-show="revealPictures" class="grid grid-cols-2">
       <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
-        <div class="p-5">
+        <div class="p-5 cursor-pointer transition-all transform hover:scale-105">
           <img 
             class="rounded-xl" 
             @click="openModal(card.picture)"
@@ -47,7 +47,7 @@ export default {
   computed:{
     buttonTitle(){
       if(this.revealPictures === false){
-        return "Continue"
+        return "More"
       } else {
         return "Less"
       }
