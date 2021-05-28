@@ -12,6 +12,10 @@ const routes = [
     { path: "/programming", component: Programming },
     { path: "/modeling", component: Modeling },
     { path: "/contact", component: Contact },
+    {
+        path: "/:pathMatch(.*)*",
+        component: 404,
+    },
     ];
 
 const router = createRouter({

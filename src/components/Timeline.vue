@@ -178,7 +178,7 @@
             <div class="text-xl px-5">
               <h1>Inspected machinery equipment in laboratories.</h1>
               <h1>Implemented strategies for machinery equipment maintenance.</h1>
-              <h1>Conducted safety inspections to make sure lab workers are working safely.</h1>
+              <h1>Conducted safety inspections to ensure lab workers are working safely.</h1>
             </div>
           </div>
         </div>
@@ -233,10 +233,10 @@
             </div>
             <div class="text-xl px-5">
               <h1>Determined the root cause for machinery failure.</h1>
-              <h1>Provided field support and onsite troubleshooting</h1>
-              <h1>Created engineering packages for filter replacement</h1>
-              <h1>Conducted vibration and oil sample tests for equipment</h1>
-              <h1>Recommend changes to prevent future machinery failures</h1>
+              <h1>Provided field support and onsite troubleshooting.</h1>
+              <h1>Created engineering packages for filter replacement.</h1>
+              <h1>Conducted vibration and oil sample tests for equipment.</h1>
+              <h1>Recommend changes to prevent future machinery failures.</h1>
             </div>
           </div>
         </div>
@@ -290,9 +290,9 @@
           <div class="text-2xl">
             <h1 class="text-4xl pb-5 tracking-widest font-bold">STARTED MANY PERSONAL PROJECTS</h1>
             <div class="tracking-widest">
-              <h1>I learned AutoCAD and created floor plan, HVAC, and plumbing drawings</h1>
-              <h1>I wrote programs using Python for data analysis and  web-scrapping</h1>
-              <h1>I learned HTML, CSS, JavaScript, Vue.js, Django, and SQL for web design</h1>
+              <h1>Using AutoCAD to create floor plans, HVAC, and plumbing drawings.</h1>
+              <h1>Designed programs using Python for data analysis and web-scraping.</h1>
+              <h1>Application of HTML, CSS, JavaScript, Vue.js, Django, and SQL for web design.</h1>
             </div>
           </div>
         </div>

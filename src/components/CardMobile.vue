@@ -1,8 +1,13 @@
 <template>
-  <div class="relative text-nepal-500">
+  <div class="relative text-pickled-bluewood-600">
     <div class="mx-auto px-4 py-12" :class="dataCardInfo.main.colorMobile">
-      <h1 class="py-2 text-2xl text-center font-semibold">{{dataCardInfo.main.heading}}</h1>
-      <img class=" bg-gradient-to-l from-nepal-200 to-nepal-300" :class="dataCardInfo.main.border" :src="dataCardInfo.main.picture" alt="main picture">
+      <h1 class="py-4 sm:text-5xl text-3xl text-center font-semibold">{{dataCardInfo.main.heading}}</h1>
+      <img 
+        class=" bg-gradient-to-l from-nepal-200 to-nepal-300 rounded-3xl" 
+        :class="dataCardInfo.main.border" 
+        :src="dataCardInfo.main.picture" 
+        @click="openModal(dataCardInfo.main.picture)"
+        alt="main picture">
       <h1 class="text-center py-2">{{dataCardInfo.main.text}}</h1>
       <div class="text-center">
 
@@ -13,7 +18,11 @@
       <div v-show="revealPictures" class="grid grid-cols-2">
         <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
           <div class="p-5">
-            <img class="rounded-xl" :src="card.picture" :alt="card.alternative">
+            <img 
+              class="rounded-xl" 
+              :src="card.picture" 
+              @click="openModal(card.picture)"
+              :alt="card.alternative">
           </div>
           <h1 class=" py-5 px-5 text-center">{{card.text}}</h1>
         </div>
@@ -24,6 +33,7 @@
 
 <script>
 export default {
+  emits:["openModal"],
   props: ["dataCardInfo"],
   data(){
     return{
@@ -37,6 +47,11 @@ export default {
       } else {
         return "Less"
       }
+    }
+  },
+  methods: {
+    openModal(picture){
+      this.$emit("openModal", picture)
     }
   },
 }

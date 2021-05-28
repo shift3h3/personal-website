@@ -79,22 +79,8 @@ html{
 .nature{background-image:url("./assets/images/nature.jpg");}
 .engineering{background-image:url("./assets/images/engineering.jpg");}
 .colorful{background-image:url("./assets/images/colorful.jpg");}
-.carfront{background-image:url("./assets/images/carfront.png");}
-.cariso{background-image:url("./assets/images/cariso.png");}
-.carside{background-image:url("./assets/images/carside.png");}
-.cartop{background-image:url("./assets/images/cartop.png");}
-.pasta1{background-image:url("./assets/images/pasta1.png");}
-.pasta2{background-image:url("./assets/images/pasta2.png");}
-.we1{background-image:url("./assets/images/we1.png");}
-.we2{background-image:url("./assets/images/we2.png");}
-.we3{background-image:url("./assets/images/we3.png");}
-.we4{background-image:url("./assets/images/we4.png");}
-.we7{background-image:url("./assets/images/we7.png");}
-.b1{background-image:url("./assets/images/b1.jpg");}
-.b2{background-image:url("./assets/images/b2.jpg");}
-.b3{background-image:url("./assets/images/b3.jpg");}
-.b4{background-image:url("./assets/images/b4.jpg");}
-.b5{background-image:url("./assets/images/b5.jpg");}
+
+
 
 
 </style>

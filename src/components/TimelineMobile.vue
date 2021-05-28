@@ -146,7 +146,7 @@
         <div class="text-md text-white pt-10">
           <h1 class="left-2017-a">Inspected machinery equipment in laboratories.</h1>
           <h1 class="left-2017-b">Implemented strategies for machinery equipment maintenance.</h1>
-          <h1 class="left-2017-c">Conducted safety inspections to make sure lab workers are working safely.</h1>
+          <h1 class="left-2017-c">Conducted safety inspections to ensure lab workers are working safely.</h1>
         </div>
       </div>
     </div>
@@ -191,10 +191,10 @@
         </div>
         <div class="text-md text-white pt-10">
           <h1 class="left-2019-a">Determined the root cause for machinery failure.</h1>
-          <h1 class="left-2019-b">Provided field support and onsite troubleshooting</h1>
-          <h1 class="left-2019-c">Created engineering packages for filter replacement</h1>
-          <h1 class="left-2019-d">Conducted vibration and oil sample tests for equipment</h1>
-          <h1 class="left-2019-e">Recommend changes to prevent future machinery failures</h1>
+          <h1 class="left-2019-b">Provided field support and onsite troubleshooting.</h1>
+          <h1 class="left-2019-c">Created engineering packages for filter replacement.</h1>
+          <h1 class="left-2019-d">Conducted vibration and oil sample tests for equipment.</h1>
+          <h1 class="left-2019-e">Recommend changes to prevent future machinery failures.</h1>
         </div>
       </div>
     </div>
@@ -242,9 +242,9 @@
           <h1>STARTED MANY PERSONAL PROJECTS</h1>
         </div>
         <div class="text-md text-white pt-10">
-          <h1 class="left-2021-a">I learned AutoCAD and created floor plan, HVAC, and plumbing drawings</h1>
-          <h1 class="left-2021-b">I wrote programs using Python for data analysis and  web-scrapping</h1>
-          <h1 class="left-2021-c">I learned HTML, CSS, JavaScript, Vue.js, Django, and SQL for web design</h1>
+          <h1 class="left-2021-a">Using AutoCAD to create floor plans, HVAC, and plumbing drawings.</h1>
+          <h1 class="left-2021-b">Designed programs using Python for data analysis and web-scraping.</h1>
+          <h1 class="left-2021-c">Application of HTML, CSS, JavaScript, Vue.js, Django, and SQL for web design.</h1>
         </div>
       </div>
     </div>
@@ -378,7 +378,7 @@ export default {
           trigger: el,
           start: "0 80%",
           end: "+=600",
-          toggleActions: "play none none none",
+          toggleActions: "play none none reset",
         },
         duration: 0.5,
         yPercent:-50,
@@ -391,7 +391,7 @@ export default {
           trigger: el,
           start: "0 80%",
           end: "+=600",
-          toggleActions: "play none none none",
+          toggleActions: "play none none reset",
         },
         duration:0.5,
         xPercent:-50,

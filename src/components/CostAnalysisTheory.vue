@@ -3,17 +3,17 @@
 <div class="pb-5 md:mx-40 mx-10">
   <h1 class="text-center text-4xl font-bold py-5">Theory</h1>
   <div class="text-xl py-3">
-    <p>Net present value (NPV) compare the present value of cash inflow and the value of cash outflow over a period of time. The discount rate is the interest the company expect in return if the same amount of money is invested in other ventures. If the NPV is negative, it indicates the current project is not profitable and the project should not be started. </p>
+    <p>Net present value (NPV) compares the present value of cash inflow and the value of cash outflow over a period. The discount rate is the interest the company expects in return if the same amount of money is invested in other ventures. If the NPV is negative, it indicates the current project is not profitable and the project should not be started.</p>
     <p class="text-xl py-3 text-center">The formula to calculate NPV is shown below:</p>
     <div>\[NPV=\sum_{t=1}^n\frac{R_{t}}{(1+i)^t}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>Similar to NPV, Internal rate of return (IRR) is used to determine the profitability of a investment. IRR calculates the discounted rate that is required to produce zero NPV. IRR utilizes the same formula as net present value. If the IRR is negative, that means the investment is not profitable and the project should not be started.</p>
+    <p>Like NPV, Internal rate of return (IRR) is used to determine the profitability of an investment. IRR calculates the discounted rate that is required to produce zero NPV. IRR utilizes the same formula as net present value. If the IRR is negative, that means the investment is not profitable and the project should not be started.</p>
     <p class="text-xl py-3 text-center">The formula to calculate IRR is shown below:</p>
     <div>\[0=\sum_{t=1}^n\frac{R_{t}}{(1+IRR)^t}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>A numerical method is required to determine the IRR since the equation cannot be solved algebraically. The Newton-Raphson method is the numerical method used to determine the IRR. One of the Newton-Raphson method's limitation is that it cannot calculate the IRR value at a period with a negative cash flow, because divergence occurs.</p>
+    <p>A numerical method is required to determine the IRR since the equation cannot be solved algebraically. The Newton-Raphson method is the numerical method used to determine the IRR. A limitation of this method is that it cannot calculate the IRR value at a period with a negative cash flow due to divergence.</p>
     <p class="text-xl py-3 text-center">The Newton-Raphson method is shown below:</p>
     <div>\[x_{n+1}=x_{n+1}-\frac{f(x_{n})}{f'(x_{n})}\]</div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
-    <div class="grid grid-cols-12 card-dim bg-nepal-400">
-      <div class="col-span-4"></div>
+    <div class="grid grid-cols-12 card-dim bg-nepal-500">
+      <div class="col-span-4 bg-pickled-bluewood-500"></div>
       <div class="col-span-8 bg-gradient-to-r" :class="dataCardInfo.main.color">
         <div class="relative top-1/2 mr-12 ml-auto w-2/3" style="transform:translateY(-50%)">
           <h1 class="text-5xl text-center">{{dataCardInfo.main.heading}}</h1>
@@ -12,13 +12,22 @@
         </div>
       </div>
     </div>
-    <img class="absolute bg-gradient-to-r from-nepal-200 to-nepal-300 top-1/2 pic-dim border-4" :class="dataCardInfo.main.border" style="transform:translateY(-50%)" :src="dataCardInfo.main.picture" alt="main picture">
+    <img 
+      class="absolute bg-gradient-to-r from-nepal-200 to-nepal-300 top-1/2 pic-dim" 
+      style="transform:translateY(-50%)" 
+      :src="dataCardInfo.main.picture" 
+      @click="openModal(dataCardInfo.main.picture)"
+      alt="main picture">
   </div>
   <transition name="cardDrop" mode="out-in">
     <div v-show="revealPictures" class="grid grid-cols-2">
       <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
         <div class="p-5">
-          <img class="rounded-xl" :src="card.picture" :alt="card.alternative">
+          <img 
+            class="rounded-xl" 
+            :src="card.picture" 
+            @click="openModal(card.picture)"
+            :alt="card.alternative">
         </div>
         <h1 class=" py-5 px-5 text-center">{{card.text}}</h1>
       </div>
@@ -29,6 +38,7 @@
 <script>
 export default {
   props: ["dataCardInfo"],
+  emits:["openModal"],
   data(){
     return{
       revealPictures: false,
@@ -41,6 +51,11 @@ export default {
       } else {
         return "Less"
       }
+    }
+  },
+  methods: {
+    openModal(picture){
+      this.$emit("openModal", picture)
     }
   },
 }

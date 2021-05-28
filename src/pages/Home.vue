@@ -143,8 +143,8 @@ export default {
           heading: "EDUCATION",
           picture: "abstract2",
           texts: [
-            "I graduation from University of Alberta in 2020 with Bachelor of Science in Mechanical Engineering Faculty of Engineering.",
-            "Prior to my Engineering degree, I enrolled in Neuroscience at the University of Alberta",
+            "I graduated from University of Alberta in 2020 with Bachelor of Science in Mechanical Engineering Faculty of Engineering.",
+            "Prior to my Engineering degree, I enrolled in Neuroscience at the University of Alberta.",
           ]
         },
         {
@@ -152,10 +152,10 @@ export default {
           heading: "VOLUNTEERING",
           picture: "abstract3",
           texts: [
-            'As the Volunteer Coordinator for a student-organized university club, I managed a team of volunteers to help with organizing events',
-            'I tutored junior high and high school math',
-            'I hosted a booth to promote workplace safety for a University of Alberta event',
-            'I participated and volunteered at the Alberta Student Leadership Summit',
+            'As the Volunteer Coordinator for a student-organized university club, I managed a team of volunteers to help with organizing events.',
+            'I tutored junior high and high school math as an independent tutor.',
+            'I hosted a booth to promote workplace safety for a University of Alberta event.',
+            'I participated and volunteered at the Alberta Student Leadership Summit.',
 
           ]
         },
@@ -164,9 +164,9 @@ export default {
           heading: 'INTERESTS',
           picture: "abstract4",
           texts: [
-            "I often snowboard in the mountains, I frequently climb either bouldering or top roping, and I enjoy playing badminton leisurely and competitively ",
+            "I often snowboard in the mountains, I frequently climb, either bouldering or top roping, and I enjoy playing badminton leisurely and competitively.",
             "Overall, I enjoy working out and maintaining an active and healthy lifestyle; I am always open to trying new things.",
-            "I maintain, fix, and take apart my motorcycle for fun",
+            "I maintain, fix, and repair my motorcycle as a hobby.",
           ]
         },
       ],
@@ -174,11 +174,11 @@ export default {
         {
           title:"AUTOCAD",
           text: [
-            "Created building upgrade projects.",
-            "Designed a waste liquid disposal system.",
-            "Created a floor plan for a sport facility", 
+            "Designed building upgrade projects.",
+            "Designed a liquid waste disposal system.",
+            "Created a floor plan for a sport facility.", 
             "designed HVAC and plumbing system using AutoCAD.",
-            "Designed electrical lines system for an emergency stop button",
+            "Designed electrical lines system for an emergency stop button.",
           ]
         },
         {
@@ -191,9 +191,10 @@ export default {
         {
           title:"SOLIDWORKS",
           text: [
-            "Perform Finite Element Analysis",
+            "Perform Finite Element Analysis.",
             "Design a remote-controlled vehicle for case competitions which was awarded first place.",
-            "Design different assemblies as needed such as a wheelchair ergometer for university research groups",
+            "Design different assemblies as needed such as a wheelchair ergometer for university research groups.",
+
 
           ]
         },
@@ -202,18 +203,20 @@ export default {
         {
           title:"PYTHON",
           text: [
-            "Web scraping/data collection ",
-            "Conducted data analysis",
-            "Blog design using Django",
-            "HVAC and pipe sizing calculation scripts",
+            "Web scraping/data collection.",
+            "Conducted data analysis.",
+            "Blog design with Django.",
+            "HVAC and pipe sizing calculation scripts.",
+
           ]
         },
         {
           title:"JAVASCRIPT",
           text: [
-            "Experienced with Node.JS", 
-            "Used Vue.js for front end web development.",
-            "Used Express for back end web development.",
+            "Experienced with Node.js", 
+            "Implementation with Vue.js for front end web development.",
+            "Implementation with Express for back end web development.",
+
           ]
         },
         {
@@ -221,7 +224,8 @@ export default {
           text: [
             "Developed algorithms to solve solid mechanics, heat transfer, and fluid flow problems.",
             "Solved math problems including linear and non-linear systems, regression, integration and differentiation, interpolation, and ordinary differential equations.",
-            "Used MATLAB for math heavy calculations that requires an iterative approach."
+            "Used MATLAB for math heavy calculations that required an iterative approach.",
+
           ]
         },
       ],

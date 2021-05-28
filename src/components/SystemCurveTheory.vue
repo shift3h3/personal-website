@@ -3,17 +3,17 @@
 <div class="pb-5 md:mx-40 mx-10">
   <h1 class="text-center text-4xl font-bold py-5">Theory</h1>
   <div class="text-xl py-3">
-    <p>The pump system curve is a plot of pump head versus flow rate. The pump system curve is used in conjunction with the pump curves to determine the suitability of a pump for the particular operation. The equation used to calculate the pump system curve is the conservation of energy formula.</p>
-    <p class="text-xl py-3 text-center">The formula to pump head is shown below:</p>
+    <p>The pump system curve is a plot of pump head versus flow rate. The pump system curve is used in conjunction with the pump curves to determine the suitability of a pump for any operation. The equation used to calculate the pump system curve is the conservation of energy formula.</p>
+    <p class="text-xl py-3 text-center">The formula for pump head is shown below:</p>
     <div class="sm:text-xl text-xs transform sm:scale-100 scale-50">\[\frac{P_{1}}{\rho g}+\frac{v_{1}}{2 g}+z_{1}+h_{p}=\frac{P_{2}}{\rho g}+\frac{v_{2}}{2 g}+z_{2}+h_{L}+\sum h_{m}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>The minor head loss is the loss of pressure in the pipe due to the fittings. To determine the actual pressure in a length of pipe, the minor head loss need to be accommodated. The loss coefficient is unique for the type of fitting and it is used to determine the minor head loss of the pipe due to the fittings.</p>
+    <p>The minor head loss is the loss of pressure in the pipe due to the fittings. To determine the actual pressure in a length of pipe, the minor head loss needs to be accommodated for. The loss coefficient is unique for the type of fitting and it is used to determine the minor head loss of the pipe due to the fittings.</p>
     <p class="text-xl py-3 text-center">The formula to calculate minor head loss is shown below:</p>
     <div>\[h_{m}=K\frac{v^2}{2g}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>The major head loss is the loss of pressure in the pipe due to friction. An accurate method to determine the loss of pressure is using the Darcy-Weisbach equation. The Darcy-Weisbach equation requires the friction factor, is calculated using a numerical method.</p>
+    <p>The major head loss is the loss of pressure in the pipe due to friction. An accurate method to determine the loss of pressure is using the Darcy-Weisbach equation. The Darcy-Weisbach equation requires the friction factor and is calculated using a numerical method.</p>
     <p class="text-xl py-3 text-center">The Darcy-Weisbach equation is shown below:</p>
     <div>\[h_{L}=f\frac{1}{2g}\frac{v^2}{d}\]</div>
   </div>
@@ -23,7 +23,7 @@
     <div class="transform sm:scale-100 scale-50">\[\frac{1}{\sqrt{f}}=-2 log\left(\frac{2.51}{Re\sqrt{f}}+\frac{e}{3.72d}\right)\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>By calculating the pump head with various flow rates, the pump system curve can be developed. The following application's preformance decreases with large input value. To prevent decrease run time, the input field has an upper limit.</p>
+    <p>By calculating the pump head with various flow rates, the pump system curve can be developed. The following application's performance decreases with large input value. To prevent a decrease in run time, the input field has an upper limit</p>
   </div>
 </div>
 <!-- END theory -->

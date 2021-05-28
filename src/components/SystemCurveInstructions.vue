@@ -4,10 +4,10 @@
   <div class="pb-5 sm:px-12">
     <h1 class="text-center text-4xl font-bold py-5">Instructions</h1>
     <div class="text-xl sm:px-8 mx-auto">
-      <h1>1. Enter the operating conditions of the pump</h1>
+      <h1>1. Enter the operating conditions of the pump.</h1>
       <h1>2. Select the fluid by inputting the fluid density and viscosity at the operating temperature.</h1>
-      <h1>3. Select the pipe material by inputting the roughness</h1>
-      <h1>4. Enter the acceptable safety factor</h1>
+      <h1>3. Select the pipe material by inputting the roughness.</h1>
+      <h1>4. Enter the acceptable safety factor.</h1>
       <h1>5. Press the calculate to generate the pump system curve.</h1>
     </div>
   </div>
@@ -17,7 +17,7 @@
   <div class="md:mx-40 mx-10">
     <h1 class="text-center text-2xl font-bold py-5">Determine the loss coefficient K</h1>
     <p class=" text-xl">
-      The loss coefficient (K) is a dimensionless number used to calculate the minor head loss within the system. Different fittings will cause a change in cross sectional area of the pipe; hence, affecting the head. The loss coefficient is used to determine the minor head loss. Some loss coefficient are show in the table below.
+      The loss coefficient (K) is a dimensionless number used to calculate the minor head loss within the system. Different fittings will cause a change in cross sectional area of the pipe; hence, affecting the head. The loss coefficient is used to determine the minor head loss. Some loss coefficients are shown in the table below.
     </p>
     <div class="text-center py-5">
       <button 
@@ -46,7 +46,7 @@
   <div class="md:mx-40 mx-10">
     <h1 class="text-center text-2xl font-bold py-5">Determine Pipe Material</h1>
     <p class=" text-xl">
-      The material of the pipe is selected by entering a roughness coefficient. Some common material for piping are steel, copper, and plastics. The roughness coefficient for different materials are listed in the table below.
+      The material of the pipe is selected by entering a roughness coefficient. Some common materials for piping are steel, copper, and plastics. The roughness coefficient for different materials is listed in the table below.
     </p>
     <div class="text-center py-5">
       <button 

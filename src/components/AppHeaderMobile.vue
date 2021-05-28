@@ -13,6 +13,7 @@
     >
         <router-link 
             to="/" 
+            @click="scrollToTop"
             class="relative mx-7 inline-block  sm:px-4 pt-3 pb-3 font-extrabold text-4xl"
             :class="{
                     'transition-opacity duration-1000 opacity-100':revealNavbar,
@@ -74,9 +75,9 @@ export default {
         reveal(){
             this.revealNavbar = !this.revealNavbar
         },
-        // closeNavbar(){
-        //     this.revealNavbar = false
-        // },
+        scrollToTop(){
+            window.scrollTo(0,0)
+        },
         ...mapActions(['updateScroll'])
     },
     mounted() {

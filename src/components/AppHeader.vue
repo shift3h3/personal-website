@@ -10,6 +10,7 @@
         style="max-width:1600px;"
     >
         <router-link 
+            @click="scrollToTop"
             to="/" 
             class="Home mx-7 inline-block font-extrabold text-4xl transition-all duration-250 transform hover:scale-105"
         >
@@ -39,6 +40,9 @@ export default {
         ...mapGetters(['allLinks','scrollPosition','windowWidth'])
     },
     methods : {
+    scrollToTop(){
+        window.scrollTo(0,0)
+    },
     ...mapActions(['updateScroll'])
     },
     mounted() {

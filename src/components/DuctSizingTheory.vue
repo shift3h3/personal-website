@@ -18,7 +18,7 @@
     <div>\[v=\frac{2.4Q_{cfm}}{\pi(d/2)^2}\]</div>
   </div>
   <div class="text-xl py-3">
-    <p>The equivalent square ducts can be calculated use the diameter of a circular duct. The equivalent square ducts are displayed in the order of precision to the diameter.</p>
+    <p>The equivalent square ducts can be calculated using the diameter of a circular duct. The equivalent square ducts are displayed in the order of precision to the diameter.</p>
     <p class="text-xl py-3 text-center">The formula to calculate equivalent square ducts is shown below:</p>
     <div>\[d_{e}=\frac{1.30a^{0.625}}{(a+b)^{0.25}}\]</div>
   </div>

@@ -35,7 +35,7 @@
         </button>
       </div>
       <p class="text-xl">
-        I created an application that is used to determine the diameter of air ducts for a HVAC system. I later added features that allows the application to determine the equivalent square ducts, and calculate the pressure for each section. 
+        I created an application that is used to determine the diameter of air ducts for a HVAC system. I later added features that allows the application to determine the equivalent square ducts and calculate the pressure for each section.
       </p>
     </div>
     <!-- END duct sizing card -->
@@ -52,7 +52,7 @@
         </button>
       </div>
       <p class="text-xl">
-        I decided to create an application that generates pump system curves, which I can use for pump selection. This application uses the conservation of energy to determine the pump head at different flow rates. 
+        I decided to create an application that generates pump system curves which can be used for pump selection. This application uses the conservation of energy to determine the pump head at different flow rates.
       </p>
     </div>
     <!-- END pump system card -->

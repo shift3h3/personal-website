@@ -10,15 +10,24 @@
           </div>
         </div>
       </div>
-      <div class="col-span-4 bg-nepal-400"></div>
+      <div class="col-span-4 bg-pickled-bluewood-500"></div>
     </div>
-    <img class="absolute bg-gradient-to-l from-nepal-200 to-nepal-300 right-0 top-1/2 pic-dim border-4" :class="dataCardInfo.main.border" style="transform:translateY(-50%)" :src="dataCardInfo.main.picture" alt="main picture">
+    <img 
+      class="absolute bg-gradient-to-l from-nepal-200 to-nepal-300 right-0 top-1/2 pic-dim"  
+      style="transform:translateY(-50%)" 
+      :src="dataCardInfo.main.picture" 
+      @click="openModal(dataCardInfo.main.picture)"
+      alt="main picture">
   </div>
   <transition name="cardDrop" mode="out-in">
     <div v-show="revealPictures" class="grid grid-cols-2">
       <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
         <div class="p-5">
-          <img class="rounded-xl" :src="card.picture" :alt="card.alternative">
+          <img 
+            class="rounded-xl" 
+            @click="openModal(card.picture)"
+            :src="card.picture" 
+            :alt="card.alternative">
         </div>
         <h1 class=" py-5 px-5 text-center">{{card.text}}</h1>
       </div>
@@ -29,6 +38,7 @@
 <script>
 export default {
   props: ["dataCardInfo"],
+  emits:["openModal"],
   data(){
     return{
       revealPictures: false,
@@ -41,6 +51,11 @@ export default {
       } else {
         return "Less"
       }
+    }
+  },
+  methods: {
+    openModal(picture){
+      this.$emit("openModal", picture)
     }
   },
 }
