@@ -15,7 +15,7 @@
       </div>
     </div>
     <transition name="cardDrop" mode="out-in">
-      <div v-show="revealPictures" class="grid grid-cols-2">
+      <div v-show="revealPictures" class="grid grid-cols-2 text-black">
         <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
           <div class="p-5">
             <img 

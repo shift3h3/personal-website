@@ -156,7 +156,7 @@ export default {
           picture:require('../assets/images/pasta1.png'),
           color:"from-glacier-400 to-glacier-500",
           colorSide: "from-biscay-600 to-biscay-500",
-          colorMobile: "bg-fun-green-500",
+          colorMobile: "bg-glacier-500",
           },
         sub:[
           {
