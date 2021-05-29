@@ -105,7 +105,7 @@ export default {
       textAbout:{
         headings: ['MECHANICAL', 'ENGINEER', 'IN TRAINING'],
         texts: [
-          "Hi there! I’m Michael He, an EIT who graduated from University of Alberta",
+          "Hi there! I’m Michael He, an EIT who graduated from University of Alberta.",
           "I’m continually learning and always excited to apply my degree in mechanical engineering to solve real world problems. This is my personal website, where I showcase my engineering knowledge as well as programming experience. This website was made using html/css/js, using vue.js.",
         ]
 

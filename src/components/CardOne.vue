@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative text-white">
     <div class="grid grid-cols-12 card-dim">
       <div class="col-span-8 bg-gradient-to-r" :class="dataCardInfo.main.color">
         <div class="relative top-1/2 ml-12 w-2/3" style="transform:translateY(-50%)">
@@ -10,7 +10,10 @@
           </div>
         </div>
       </div>
-      <div class="col-span-4 bg-pickled-bluewood-500"></div>
+      <div 
+        class="col-span-4 bg-gradient-to-r"
+        :class="dataCardInfo.main.colorSide"
+      ></div>
     </div>
     <img 
       class="absolute bg-gradient-to-l from-nepal-200 to-nepal-300 right-0 top-1/2 pic-dim cursor-pointer"  

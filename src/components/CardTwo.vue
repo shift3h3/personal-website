@@ -1,7 +1,10 @@
 <template>
-  <div class="relative">
+  <div class="relative text-white">
     <div class="grid grid-cols-12 card-dim bg-nepal-500">
-      <div class="col-span-4 bg-pickled-bluewood-500"></div>
+      <div 
+        class="col-span-4 bg-gradient-to-r"
+        :class="dataCardInfo.main.colorSide"
+      ></div>
       <div class="col-span-8 bg-gradient-to-r" :class="dataCardInfo.main.color">
         <div class="relative top-1/2 mr-12 ml-auto w-2/3" style="transform:translateY(-50%)">
           <h1 class="text-5xl text-center">{{dataCardInfo.main.heading}}</h1>

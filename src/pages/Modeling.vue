@@ -68,8 +68,9 @@ export default {
           heading:"SPORT FACILITY",
           text:"Floor plan, HVAC system, and plumbing system.",
           picture:require('../assets/images/b1.jpg'),
-          color:"from-contessa-600 to-contessa-500",
-          colorMobile: "bg-contessa-500",
+          color:"from-matisse-600 to-matisse-500",
+          colorSide: "from-fun-green-500 to-fun-green-400",
+          colorMobile: "bg-matisse-500",
           },
         sub:[
           {
@@ -99,8 +100,9 @@ export default {
           heading:"VEHICLE",
           text:"Remote control vehicle designed to traverse obstacle courses.",
           picture:require('../assets/images/cariso.png'),
-          color:"from-don-juan-500 to-don-juan-400",
-          colorMobile: "bg-don-juan-500",
+          color:"from-glacier-400 to-glacier-500",
+          colorSide: "from-matisse-600 to-matisse-500",
+          colorMobile: "bg-glacier-500",
           },
         sub:[
           {
@@ -120,8 +122,9 @@ export default {
           heading:"ERGOMETER",
           text:"A lightweight and portable ergometer, used to assess shoulder injury risk while operating a wheelchair.",
           picture:require('../assets/images/ergofull.png'),
-          color:"from-au-chico-400 to-au-chico-600",
-          colorMobile: "bg-au-chico-500",
+          color:"from-biscay-400 to-biscay-600",
+          colorSide: "from-california-400 to-california-500",
+          colorMobile: "bg-biscay-500",
           },
         sub:[
           {
@@ -151,8 +154,9 @@ export default {
           heading:"PASTA MAKER",
           text:"Created using SolidWorks.",
           picture:require('../assets/images/pasta1.png'),
-          color:"from-nepal-400 to-nepal-600",
-          colorMobile: "bg-nepal-500",
+          color:"from-glacier-400 to-glacier-500",
+          colorSide: "from-biscay-600 to-biscay-500",
+          colorMobile: "bg-fun-green-500",
           },
         sub:[
           {
