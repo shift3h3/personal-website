@@ -1,5 +1,5 @@
 <template>
-  <div class="relative text-pickled-bluewood-600">
+  <div class="relative text-white">
     <div class="mx-auto px-4 py-12" :class="dataCardInfo.main.colorMobile">
       <h1 class="py-4 sm:text-5xl text-3xl text-center font-semibold">{{dataCardInfo.main.heading}}</h1>
       <img 
