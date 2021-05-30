@@ -29,7 +29,7 @@
     <h1 class="md:text-8xl sm:text-6xl text-5xl font-bold text-center">DESIGN</h1>
     <h1 class="md:text-8xl sm:text-6xl text-5xl font-bold text-center">PROJECTS</h1>
     <h1 class="md:text-6xl sm:text-4xl text-3xl font-bold text-center">AutoCAD</h1>
-    <h1 class="md:text-6xl sm:text-4xl text-3xl font-bold text-center">Solidwork</h1>
+    <h1 class="md:text-6xl sm:text-4xl text-3xl font-bold text-center">SolidWorks</h1>
   </div>
   <div class="text-pickled-bluewood-600" v-if="!mobileCard">
     <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoTwo"/>

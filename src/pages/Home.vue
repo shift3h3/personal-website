@@ -143,7 +143,7 @@ export default {
           heading: "EDUCATION",
           picture: "abstract2",
           texts: [
-            "I graduated from University of Alberta in 2020 with Bachelor of Science in Mechanical Engineering Faculty of Engineering.",
+            "I graduated from University of Alberta in 2020 with a Bachelor of Science in Mechanical Engineering, Faculty of Engineering.",
             "Prior to my Engineering degree, I enrolled in Neuroscience at the University of Alberta.",
           ]
         },
