@@ -62,7 +62,6 @@ export default {
 </script>
 
 <style>
-.background1{background-image:url("../assets/images/gears.jpg");}
 .fade-about-enter-active,
 .fade-about-leave-active {
   transition: transform 0.5s ease, opacity 1s ease;

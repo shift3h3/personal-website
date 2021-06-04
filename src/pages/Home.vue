@@ -112,7 +112,7 @@ export default {
       },
       sliders: [
         {
-          picture:"star", 
+          picture:"sky", 
           link:"#overview", 
           title:"MICHAEL HE",
           text:"MECHANICAL ENGINEER IN TRAINING",

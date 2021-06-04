@@ -42,43 +42,29 @@ export default {
 html{
   font-family: 'Montserrat', sans-serif !important;
 }
-.main{background-image:url("./assets/images/main.jpg");}
 .laptop{background-image:url("./assets/images/laptop.jpg");}
 .buildings{background-image:url("./assets/images/buildings.jpg");}
-.abstract1{background-image:url("./assets/images/abstract1.jpg");}
 .abstract2{background-image:url("./assets/images/abstract2.jpg");}
 .abstract3{background-image:url("./assets/images/abstract3.jpg");}
 .abstract4{background-image:url("./assets/images/abstract4.jpg");}
-.watch{background-image:url("./assets/images/watch.jpg");}
-.hello{background-image:url("./assets/images/hello.jpg");}
 .glassware{background-image:url("./assets/images/glassware.jpg");}
-.mountain{background-image:url("./assets/images/mountain.jpg");}
 .helmet{background-image:url("./assets/images/helmet.jpg");}
 .truck{background-image:url("./assets/images/truck.jpg");}
-.snowboarding{background-image:url("./assets/images/snowboarding.jpg");}
-.volunteer{background-image:url("./assets/images/volunteer.jpg");}
-.education{background-image:url("./assets/images/education.jpg");}
 .book{background-image:url("./assets/images/book.jpg");}
-.star{background-image:url("./assets/images/star.jpg");}
-.steampunk{background-image:url("./assets/images/steampunk.jpg");}
-.gears{background-image:url("./assets/images/gears.jpg");}
-.lightbulb{background-image:url("./assets/images/lightbulb.jpg");}
 .industry{background-image:url("./assets/images/industry.jpg");}
 .computer{background-image:url("./assets/images/computer.jpg");}
 .graduation{background-image:url("./assets/images/graduation.jpg");}
 .phone{background-image:url("./assets/images/phone.jpg");}
 .uofa{background-image:url("./assets/images/ppe.jpg");}
-.back{background-image:url("./assets/images/back.jpg");}
-.projects{background-image:url("./assets/images/drawings.jpg");}
 .oilgas{background-image:url("./assets/images/oilgas.jpg");}
 .canada{background-image:url("./assets/images/canada.jpg");}
 .hourglass{background-image:url("./assets/images/hourglass.jpg");}
 .brain{background-image:url("./assets/images/brain.jpg");}
 .technology{background-image:url("./assets/images/technology.jpg");}
-.code{background-image:url("./assets/images/code.jpg");}
 .nature{background-image:url("./assets/images/nature.jpg");}
 .engineering{background-image:url("./assets/images/engineering.jpg");}
 .colorful{background-image:url("./assets/images/colorful.jpg");}
+.sky{background-image:url("./assets/images/sky.jpg");}
 
 
 

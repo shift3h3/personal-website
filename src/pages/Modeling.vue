@@ -32,6 +32,7 @@
     <h1 class="md:text-6xl sm:text-4xl text-3xl font-bold text-center">SolidWorks</h1>
   </div>
   <div class="text-pickled-bluewood-600" v-if="!mobileCard">
+    <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoFive"/>
     <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoTwo"/>
     <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoThree"/>
     <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoOne"/>
@@ -178,6 +179,48 @@ export default {
             picture:require('../assets/images/gearbox3.png'), 
             alternative:'overview', 
             text:"Close up view of the gears and shafts.",
+          },
+        ]
+      },
+      cardInfoFive: {
+        main:{
+          heading:"PUMP",
+          text:"Models and drawings of a centrifugal pump.",
+          picture:require('../assets/images/pumpMotorAssembly.png'),
+          color:"from-fun-green-400 to-fun-green-500",
+          colorSide: "from-california-500 to-california-400",
+          colorMobile: "bg-fun-green-500",
+          },
+        sub:[
+          {
+            picture:require('../assets/images/pumpAssembly.png'), 
+            alternative:'overview', 
+            text:"Section view of the pump assembly.",
+          },
+          {
+            picture:require('../assets/images/shaft.png'), 
+            alternative:'overview', 
+            text:"An image of the pump shaft.",
+          },
+          {
+            picture:require('../assets/images/pumpCase.png'), 
+            alternative:'overview', 
+            text:"A inside view of the pump casing.",
+          },
+          {
+            picture:require('../assets/images/impeller.png'), 
+            alternative:'overview', 
+            text:"A view of the pump impeller.",
+          },
+          {
+            picture:require('../assets/images/pumpDrawing1.jpg'), 
+            alternative:'overview', 
+            text:"Exploded view of the pump-motor assembly.",
+          },
+          {
+            picture:require('../assets/images/pumpDrawing2.jpg'), 
+            alternative:'overview', 
+            text:"Exploded view of the pump assembly.",
           },
         ]
       },

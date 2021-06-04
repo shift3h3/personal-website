@@ -23,7 +23,7 @@
       alt="main picture">
   </div>
   <transition name="cardDrop" mode="out-in">
-    <div v-show="revealPictures" class="grid grid-cols-2">
+    <div v-show="revealPictures" class="grid grid-cols-2 overflow-hidden">
       <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
         <div class="p-5 cursor-pointer transition-all transform hover:scale-105">
           <img 

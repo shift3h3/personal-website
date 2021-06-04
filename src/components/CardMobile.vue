@@ -43,7 +43,7 @@ export default {
   computed:{
     buttonTitle(){
       if(this.revealPictures === false){
-        return "Continue"
+        return "More"
       } else {
         return "Less"
       }
