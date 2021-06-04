@@ -39,6 +39,7 @@
     <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoFour"/>
   </div>
   <div v-else>
+    <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoFive"/>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoTwo"/>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoThree"/>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoOne"/>
