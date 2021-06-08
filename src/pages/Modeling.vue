@@ -33,13 +33,15 @@
   </div>
   <div class="text-pickled-bluewood-600" v-if="!mobileCard">
     <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoFive"/>
-    <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoTwo"/>
-    <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoThree"/>
-    <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoOne"/>
-    <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoFour"/>
+    <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoSix"/>
+    <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoTwo"/>
+    <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoThree"/>
+    <CardTwo @openModal="revealModal($event)" :data-card-info="cardInfoOne"/>
+    <CardOne @openModal="revealModal($event)" :data-card-info="cardInfoFour"/>
   </div>
   <div v-else>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoFive"/>
+    <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoSix"/>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoTwo"/>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoThree"/>
     <CardMobile @openModal="revealModal($event)" :data-card-info="cardInfoOne"/>
@@ -102,9 +104,9 @@ export default {
           heading:"VEHICLE",
           text:"Remote control vehicle designed to traverse obstacle courses.",
           picture:require('../assets/images/cariso.png'),
-          color:"from-glacier-400 to-glacier-500",
+          color:"from-california-400 to-california-500",
           colorSide: "from-matisse-600 to-matisse-500",
-          colorMobile: "bg-glacier-500",
+          colorMobile: "bg-california-500",
           },
         sub:[
           {
@@ -124,9 +126,9 @@ export default {
           heading:"ERGOMETER",
           text:"A lightweight and portable ergometer, used to assess shoulder injury risk while operating a wheelchair.",
           picture:require('../assets/images/ergofull.png'),
-          color:"from-biscay-400 to-biscay-600",
-          colorSide: "from-california-400 to-california-500",
-          colorMobile: "bg-biscay-500",
+          color:"from-glacier-400 to-glacier-600",
+          colorSide: "from-biscay-400 to-biscay-500",
+          colorMobile: "bg-glacier-500",
           },
         sub:[
           {
@@ -156,9 +158,9 @@ export default {
           heading:"PASTA MAKER",
           text:"Created using SolidWorks.",
           picture:require('../assets/images/pasta1.png'),
-          color:"from-glacier-400 to-glacier-500",
-          colorSide: "from-biscay-600 to-biscay-500",
-          colorMobile: "bg-glacier-500",
+          color:"from-biscay-400 to-biscay-500",
+          colorSide: "from-glacier-600 to-glacier-500",
+          colorMobile: "bg-biscay-500",
           },
         sub:[
           {
@@ -185,7 +187,7 @@ export default {
       },
       cardInfoFive: {
         main:{
-          heading:"PUMP",
+          heading:"CENTRIFUGAL PUMP",
           text:"Models and drawings of a centrifugal pump.",
           picture:require('../assets/images/pumpMotorAssembly.png'),
           color:"from-fun-green-400 to-fun-green-500",
@@ -222,6 +224,38 @@ export default {
             picture:require('../assets/images/pumpDrawing2.jpg'), 
             alternative:'overview', 
             text:"Exploded view of the pump assembly.",
+          },
+        ]
+      },
+      cardInfoSix: {
+        main:{
+          heading:"HYRDAULIC PUMP",
+          text:"Models of an external gear hydraulic pump.",
+          picture:require('../assets/images/hydraulicPump.png'),
+          color:"from-biscay-400 to-biscay-500",
+          colorSide: "from-matisse-500 to-matisse-400",
+          colorMobile: "bg-biscay-500",
+          },
+        sub:[
+          {
+            picture:require('../assets/images/hydraulicPumpSide.png'), 
+            alternative:'overview', 
+            text:"Side view of the hydraulic pump.",
+          },
+          {
+            picture:require('../assets/images/hydraulicPumpTop.png'), 
+            alternative:'overview', 
+            text:"Top view of the hydraulic pump.",
+          },
+          {
+            picture:require('../assets/images/hydraulicPumpSectionR.png'), 
+            alternative:'overview', 
+            text:"The right section view of the hydraulic pump.",
+          },
+          {
+            picture:require('../assets/images/hydraulicPumpSectionF.png'), 
+            alternative:'overview', 
+            text:"The front section view of the hydraulic pump.",
           },
         ]
       },

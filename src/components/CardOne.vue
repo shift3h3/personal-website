@@ -27,7 +27,7 @@
       <div class="py-6" v-for="card in dataCardInfo.sub" :key="card">
         <div class="p-5 cursor-pointer transition-all transform hover:scale-105">
           <img 
-            class="rounded-xl" 
+            class="rounded-xl w-full" 
             @click="openModal(card.picture)"
             :src="card.picture" 
             :alt="card.alternative">
