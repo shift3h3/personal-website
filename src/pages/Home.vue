@@ -86,7 +86,6 @@
 <script>
 import Carousel from "../components/Carousel";
 import Text from "../components/Text";
-// import CardDropDown from "../components/CardDropDown";
 import Hexagon from "../components/Hexagon";
 import CarouselAbout from "../components/CarouselAbout";
 export default {

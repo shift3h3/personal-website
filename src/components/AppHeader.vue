@@ -22,7 +22,7 @@
                 v-show="index!=0"
                 :key="item.to" 
                 :to="item.to"
-                class="text-lg pt-1 tracking-widest mx-7 my-1 inline-block hover:text-bondi-blue-400 hover:font-bold transition-all duration-250 transform hover:scale-110"
+                class="text-lg tracking-widest mx-7 my-1 inline-block hover:text-bondi-blue-400 hover:font-bold transition-all duration-250 transform hover:scale-110"
                 :class="{'text-bondi-blue-500 text-2xl': $route.path === item.to}"
             >
                 {{ item.title }}
