@@ -3,7 +3,7 @@
     class="fixed w-full top-0"
     style="max-width:1600px; left:50%; transform:translateX(-50%);"
   >
-    <!-- main navbar -->
+    <!-- Main Navbar -->
     <nav
       class="transition-all duration-500 text-white px-12 pt-3 pb-3 text-2xl rounded-3xl"
       :class="{
