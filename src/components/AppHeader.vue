@@ -49,7 +49,7 @@ export default {
     ...mapActions(["updateScroll"]),
   },
   mounted() {
-    // listen for scroll and update scrollPosition
+    // Listen for scroll and update scrollPosition
     window.addEventListener("scroll", this.updateScroll);
     window.addEventListener("resize", this.updateScroll);
   },
