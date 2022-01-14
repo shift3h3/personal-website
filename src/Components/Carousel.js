@@ -25,7 +25,7 @@ const Carousel = () => {
     {
       title: "JavaScript",
       picture: "laptop",
-      text: "Let us know if you need custom software developed to suit your business needs. We can develop a variety of web base applications.",
+      text: "Let us know if you need custom software developed to suit your business needs. We can develop a variety of web base applications. test",
       active: false,
     },
   ]);
