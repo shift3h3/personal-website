@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../Assets/Videos/background.mp4";
+// import background from "../Assets/Videos/background.mp4";
 import { useWindowDimensions } from "../Hooks/useWindowDimensions";
 import "./VideoTitle.css";
 const VideoTitle = () => {
@@ -8,7 +8,7 @@ const VideoTitle = () => {
     return (
       <div className="relative h-screen" style={{ maxHeight: "1200px" }}>
         <video className="videosize" autoPlay loop muted>
-          <source src={background} type="video/mp4" />
+          {/* <source src={background} type="video/mp4" /> */}
         </video>
         <div className="absolute w-full bottom-1/4 md:left-0 left-1/2 px-5 text-center transform md:translate-x-0 -translate-x-1/2">
           <h1 className="md:text-8xl text-6xl text-white">Michael He</h1>
