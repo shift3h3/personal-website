@@ -1,7 +1,7 @@
 import React from "react";
 import VideoTitle from "../Components/VideoTitle";
 import Carousel from "../Components/Carousel";
-// import Gears from "../Assets/Images/gears.png";
+import Gears from "../Assets/Images/gears.png";
 
 const Home = () => {
   // run this code on rendering thats what useeffect does
@@ -49,7 +49,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="my-6">
-          {/* <img className="w-3/5 mx-auto" src={Gears} alt="" /> */}
+          <img className="w-3/5 mx-auto" src={Gears} alt="" />
         </div>
         <p className="md:w-3/5 md:mx-auto mx-6 lg:text-3xl md:text-2xl text-xl md:text-justify">
           I enrolled in University of Alberta in 2012. During the first three
