@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useGlobalContext } from "../Hooks/useGlobalContext";
 import { useWindowDimensions } from "../Hooks/useWindowDimensions";
 import { useWindowPositions } from "../Hooks/useWindowPositions";
-import Burger from "./Burger";
+import Burger from "../Components/Burger";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdSchool } from "react-icons/md";
 import { MdWork } from "react-icons/md";
