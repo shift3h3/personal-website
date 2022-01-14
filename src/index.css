@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.border-radius {
+  border-radius: 60px;
+}
+.to-back {
+  z-index: -1;
+}
+.to-front {
+  z-index: 1;
+}
+.scale-115 {
+  transform: scale(1.15);
+}
+.honeydew {
+  background-image: url("./Assets/Images/honeydew.jpg");
+}
+.edmonton {
+  background-image: url("./Assets/Images/edmonton.jpg");
+}
+.rocks {
+  background-image: url("./Assets/Images/rocks.jpg");
+}
+.computer {
+  background-image: url("./Assets/Images/computer.jpg");
+}
+.phone {
+  background-image: url("./Assets/Images/phone.jpg");
+}
+.homepage {
+  background-image: url("./Assets/Images/homepageVs.png");
+}
+.person1 {
+  background-image: url("./Assets/Images/person1.jpg");
+  /* filter: grayscale(100%); */
+}
+.person2 {
+  background-image: url("./Assets/Images/person2.jpg");
+  /* filter: grayscale(100%); */
+}
+.person3 {
+  background-image: url("./Assets/Images/person3.jpg");
+  /* filter: grayscale(100%); */
+}
+.person4 {
+  background-image: url("./Assets/Images/person4.jpg");
+  /* filter: grayscale(100%); */
+}
+.person5 {
+  background-image: url("./Assets/Images/person5.jpg");
+  /* filter: grayscale(100%); */
+}
+.person6 {
+  background-image: url("./Assets/Images/person6.jpg");
+  /* filter: grayscale(100%); */
+}
+.background {
+  background-image: url("./Assets/Images/background.jpg");
+}
+.blog {
+  background-image: url("./Assets/Images/blog.jpg");
+  /* filter: grayscale(80%); */
+}
+.chart {
+  background-image: url("./Assets/Images/chart.jpg");
+  /* filter: grayscale(80%); */
+}
+.clock {
+  background-image: url("./Assets/Images/clock.jpg");
+  /* filter: grayscale(80%); */
+}
+.box {
+  background-image: url("./Assets/Images/box.jpg");
+  /* filter: grayscale(80%); */
+}
+.web-scrap {
+  background-image: url("./Assets/Images/web-scrap.jpg");
+}
+.robot {
+  background-image: url("./Assets/Images/robot.jpg");
+}
+.graph {
+  background-image: url("./Assets/Images/graph.jpg");
+}
+.laptop {
+  background-image: url("./Assets/Images/laptop.jpg");
+}
+.about-banner {
+  background-image: url("./Assets/Images/group.jpg");
+}
+.cut-person {
+  background-image: url("./Assets/Images/cut-person.jpg");
+}
+.cellphone {
+  background-image: url("./Assets/Images/cellphone.jpg");
+}
+.database {
+  background-image: url("./Assets/Images/database.jpg");
+}
+.light-bulb {
+  background-image: url("./Assets/Images/light-bulb.jpg");
+}
+.car {
+  background-image: url("./Assets/Images/car.jpg");
+}
+.city {
+  background-image: url("./Assets/Images/city.jpg");
+}
+.python {
+  background-image: url("./Assets/Images/python.jpg");
+}
